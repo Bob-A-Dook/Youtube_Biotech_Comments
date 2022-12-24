@@ -1,0 +1,182 @@
+// Made using a script from ciemnastrona.com.pl.
+// You can modify the graph by making changes to this file,
+// then launching the console in the same folder and typing:
+
+// dot -T svg graph.gv -o graph.svg
+
+// (dot must be installed on your computer)
+digraph Connections {
+
+  edge [color="#8caff3", penwidth="2"];
+  node [color="#4bc9c8", fontcolor="#dddddd"];
+  graph [fontname="Helvetica", bgcolor="#252525", ranksep="2", nodesep="1.2", rankdir="LR", splines="line", newrank="true", overlap="prism"];
+
+34 [label="gmo-\nsafety.eu/news/1388.igw-\ngenetically-modified-\nbiosafety-research.html", tooltip="gmo-safety.eu/news/1388.igw-genetically-modified-biosafety-research.html" , href="https://gmo-safety.eu/news/1388.igw-genetically-modified-biosafety-research.html"]
+126 [label="czajniczek-pana-russella.\nblogspot.com/2012/05/dlac\nzego-renifer-nie-\nlata.html", tooltip="czajniczek-pana-russella.blogspot.com/2012/05/dlaczego-renifer-nie-lata.html" , href="https://czajniczek-pana-russella.blogspot.com/2012/05/dlaczego-renifer-nie-lata.html"]
+100 [label="szkolkarstwo.pl/article.p\nhp?id=524", tooltip="szkolkarstwo.pl/article.php?id=524" , href="https://szkolkarstwo.pl/article.php%3Fid%3D524"]
+90 [label="indianjournals.com/ijor.a\nspx?target=ijor:tbs&volum\ne=6&issue=1&article=001", tooltip="indianjournals.com/ijor.aspx?target=ijor:tbs&volume=6&issue=1&article=001" , href="https://indianjournals.com/ijor.aspx%3Ftarget%3Dijor%3Atbs%26volume%3D6%26issue%3D1%26article%3D001"]
+6 [label="aem.asm.org/content/67/10\n/4488.full", tooltip="aem.asm.org/content/67/10/4488.full" , href="https://aem.asm.org/content/67/10/4488.full"]
+130 [label="niewiara.wordpress.com/20\n09/07/16/terapia-\nnadtlenkiem-wodoru/", tooltip="niewiara.wordpress.com/2009/07/16/terapia-nadtlenkiem-wodoru/" , href="https://niewiara.wordpress.com/2009/07/16/terapia-nadtlenkiem-wodoru/"]
+134 [label="naukaoklimacie.pl/fakty-\ni-mity/mit-nawet-\nstopienie-calego-lodu-na-\nziemi-nie-podniesie-\npoziomu-morza-111", tooltip="naukaoklimacie.pl/fakty-i-mity/mit-nawet-stopienie-calego-lodu-na-ziemi-nie-podniesie-poziomu-morza-111" , href="https://naukaoklimacie.pl/fakty-i-mity/mit-nawet-stopienie-calego-lodu-na-ziemi-nie-podniesie-poziomu-morza-111"]
+136 [label="naukaoklimacie.pl/fakty-\ni-mity/mit-nie-ma-\nempirycznych-dowodow-na-\nantropogenicznosc-\nglobalnego-ocieplenia-41", tooltip="naukaoklimacie.pl/fakty-i-mity/mit-nie-ma-empirycznych-dowodow-na-antropogenicznosc-globalnego-ocieplenia-41" , href="https://naukaoklimacie.pl/fakty-i-mity/mit-nie-ma-empirycznych-dowodow-na-antropogenicznosc-globalnego-ocieplenia-41"]
+10 [label="csr.forbes.pl/uprawy-gmo-\nna-swiecie,artykuly,19061\n4,1,1.html", tooltip="csr.forbes.pl/uprawy-gmo-na-swiecie,artykuly,190614,1,1.html" , href="https://csr.forbes.pl/uprawy-gmo-na-swiecie%2Cartykuly%2C190614%2C1%2C1.html"]
+14 [label="nicprostszego.wordpress.c\nom/2012/09/27/o-szkodliwy\nm-gm-szczurach-i-raku/", tooltip="nicprostszego.wordpress.com/2012/09/27/o-szkodliwym-gm-szczurach-i-raku/" , href="https://nicprostszego.wordpress.com/2012/09/27/o-szkodliwym-gm-szczurach-i-raku/"]
+54 [label="webcache.googleuserconten\nt.com/search?q=cache:bb1y\ncya7z00j:yadda.icm.edu.pl\n/yadda/element/bwmeta1.el\nement.agro-article-de018b\nac-6560-442a-9dc5-8c93e65\nc4ac1/c/troczynska_j.__fl\nasinski_s.__drozdowska_l.\n.pdf+&cd=2&hl=pl&ct=clnk&\ngl=pl", tooltip="webcache.googleusercontent.com/search?q=cache:bb1ycya7z00j:yadda.icm.edu.pl/yadda/element/bwmeta1.element.agro-article-de018bac-6560-442a-9dc5-8c93e65c4ac1/c/troczynska_j.__flasinski_s.__drozdowska_l..pdf+&cd=2&hl=pl&ct=clnk&gl=pl" , href="https://webcache.googleusercontent.com/search%3Fq%3Dcache%3Abb1ycya7z00j%3Ayadda.icm.edu.pl/yadda/element/bwmeta1.element.agro-article-de018bac-6560-442a-9dc5-8c93e65c4ac1/c/troczynska_j.__flasinski_s.__drozdowska_l..pdf%2B%26cd%3D2%26hl%3Dpl%26ct%3Dclnk%26gl%3Dpl"]
+56 [label="pbkom.eu/sites/default/fi\nles/artykulydo2012/36_s25\n_189.pdf", tooltip="pbkom.eu/sites/default/files/artykulydo2012/36_s25_189.pdf" , href="https://pbkom.eu/sites/default/files/artykulydo2012/36_s25_189.pdf"]
+58 [label="pfb.info.pl/files/kwartal\nnik/4_2007/troczynska-\ndrozdowska.pdf", tooltip="pfb.info.pl/files/kwartalnik/4_2007/troczynska-drozdowska.pdf" , href="https://pfb.info.pl/files/kwartalnik/4_2007/troczynska-drozdowska.pdf"]
+60 [label="repozytorium.amu.edu.pl/j\nspui/bitstream/10593/6071\n/1/rozprawa%20doktorska%2\n0m.%20wierzchowiecka.pdf", tooltip="repozytorium.amu.edu.pl/jspui/bitstream/10593/6071/1/rozprawa%20doktorska%20m.%20wierzchowiecka.pdf" , href="https://repozytorium.amu.edu.pl/jspui/bitstream/10593/6071/1/rozprawa%2520doktorska%2520m.%2520wierzchowiecka.pdf"]
+62 [label="skepticblog.org/2012/11/0\n8/argumentum-ad-\nmonsantium/", tooltip="skepticblog.org/2012/11/08/argumentum-ad-monsantium/" , href="https://skepticblog.org/2012/11/08/argumentum-ad-monsantium/"]
+1 [label="Jak (i po co) robi się\nGMO? | Słowo na sobotę\n#29 - YouTube", tooltip="Jak (i po co) robi sięGMO? | Słowo na sobotę#29 - YouTube" ,style=filled,color=red,fontcolor=black]
+4 [label="gmo.blog.polityka.pl/2013\n/05/14/sad-najwyzszy-\nzdecydowal-bowman-vs-\nmonsanto/", tooltip="gmo.blog.polityka.pl/2013/05/14/sad-najwyzszy-zdecydowal-bowman-vs-monsanto/" , href="https://gmo.blog.polityka.pl/2013/05/14/sad-najwyzszy-zdecydowal-bowman-vs-monsanto/",style=filled,color=green,fontcolor=black]
+16 [label="gmo.blog.polityka.pl/2013\n/02/23/bowman-vs-\nmonsanto/", tooltip="gmo.blog.polityka.pl/2013/02/23/bowman-vs-monsanto/" , href="https://gmo.blog.polityka.pl/2013/02/23/bowman-vs-monsanto/",style=filled,color=green,fontcolor=black]
+20 [label="gmo.blog.polityka.pl/2012\n/07/04/porownanie-\ntechnik-hodowlanych/", tooltip="gmo.blog.polityka.pl/2012/07/04/porownanie-technik-hodowlanych/" , href="https://gmo.blog.polityka.pl/2012/07/04/porownanie-technik-hodowlanych/",style=filled,color=green,fontcolor=black]
+30 [label="gmo.blog.polityka.pl/2013\n/11/17/o-indiach-i-\nbawelnie-bt-kolejny-raz-\nostatni/", tooltip="gmo.blog.polityka.pl/2013/11/17/o-indiach-i-bawelnie-bt-kolejny-raz-ostatni/" , href="https://gmo.blog.polityka.pl/2013/11/17/o-indiach-i-bawelnie-bt-kolejny-raz-ostatni/",style=filled,color=green,fontcolor=black]
+32 [label="gmo.blog.polityka.pl/2012\n/07/15/dobre-wiadomosci-\ndla-hinduskich-rolnikow/", tooltip="gmo.blog.polityka.pl/2012/07/15/dobre-wiadomosci-dla-hinduskich-rolnikow/" , href="https://gmo.blog.polityka.pl/2012/07/15/dobre-wiadomosci-dla-hinduskich-rolnikow/",style=filled,color=green,fontcolor=black]
+88 [label="gmo.blog.polityka.pl/", tooltip="gmo.blog.polityka.pl/" , href="https://gmo.blog.polityka.pl/",style=filled,color=green,fontcolor=black]
+108 [label="gmo.blog.polityka.pl/2012\n/02/22/czy-greenpeace-\njest-sponsorowany-przez-\nmonsanto/", tooltip="gmo.blog.polityka.pl/2012/02/22/czy-greenpeace-jest-sponsorowany-przez-monsanto/" , href="https://gmo.blog.polityka.pl/2012/02/22/czy-greenpeace-jest-sponsorowany-przez-monsanto/",style=filled,color=green,fontcolor=black]
+2 [label="gmo.blog.polityka.pl/tag/\nbowman-vs-monsanto/", tooltip="gmo.blog.polityka.pl/tag/bowman-vs-monsanto/" , href="https://gmo.blog.polityka.pl/tag/bowman-vs-monsanto/",style=filled,color=green,fontcolor=black]
+12 [label="gmo.blog.polityka.pl/2014\n/12/05/monsanto-rozdaje-\npatenty/", tooltip="gmo.blog.polityka.pl/2014/12/05/monsanto-rozdaje-patenty/" , href="https://gmo.blog.polityka.pl/2014/12/05/monsanto-rozdaje-patenty/",style=filled,color=green,fontcolor=black]
+52 [label="polityka.pl/tygodnikpolit\nyka/nauka/1522755,1,falsz\nywi-prorocy-gmo-\ncz-2-gilles-eric-\nseralini.read", tooltip="polityka.pl/tygodnikpolityka/nauka/1522755,1,falszywi-prorocy-gmo-cz-2-gilles-eric-seralini.read" , href="https://polityka.pl/tygodnikpolityka/nauka/1522755%2C1%2Cfalszywi-prorocy-gmo-cz-2-gilles-eric-seralini.read",style=filled,color=green,fontcolor=black]
+64 [label="gmo.blog.polityka.pl/2014\n/12/22/wstydliwa-\nrocznica/", tooltip="gmo.blog.polityka.pl/2014/12/22/wstydliwa-rocznica/" , href="https://gmo.blog.polityka.pl/2014/12/22/wstydliwa-rocznica/",style=filled,color=green,fontcolor=black]
+66 [label="gmo.blog.polityka.pl/2012\n/08/17/hokus-pokus/", tooltip="gmo.blog.polityka.pl/2012/08/17/hokus-pokus/" , href="https://gmo.blog.polityka.pl/2012/08/17/hokus-pokus/",style=filled,color=green,fontcolor=black]
+82 [label="gmo.blog.polityka.pl/2014\n/06/25/kukurydza-gmo-\nszklanka-glifosatu-na-\nsniadanie-recepta-na-\ndlugowiecznosc-mezczyzn/", tooltip="gmo.blog.polityka.pl/2014/06/25/kukurydza-gmo-szklanka-glifosatu-na-sniadanie-recepta-na-dlugowiecznosc-mezczyzn/" , href="https://gmo.blog.polityka.pl/2014/06/25/kukurydza-gmo-szklanka-glifosatu-na-sniadanie-recepta-na-dlugowiecznosc-mezczyzn/",style=filled,color=green,fontcolor=black]
+102 [label="gmo.blog.polityka.pl/2012\n/08/11/efekt-halo/", tooltip="gmo.blog.polityka.pl/2012/08/11/efekt-halo/" , href="https://gmo.blog.polityka.pl/2012/08/11/efekt-halo/",style=filled,color=green,fontcolor=black]
+8 [label="gmo.blog.polityka.pl/2016\n/04/14/20-lat-uprawy-gmo-\npodsumowanie/", tooltip="gmo.blog.polityka.pl/2016/04/14/20-lat-uprawy-gmo-podsumowanie/" , href="https://gmo.blog.polityka.pl/2016/04/14/20-lat-uprawy-gmo-podsumowanie/",style=filled,color=green,fontcolor=black]
+144 [label="gmo.blog.polityka.pl/2012\n/07/05/kto-jest-agentem-\nmonsanto/", tooltip="gmo.blog.polityka.pl/2012/07/05/kto-jest-agentem-monsanto/" , href="https://gmo.blog.polityka.pl/2012/07/05/kto-jest-agentem-monsanto/",style=filled,color=green,fontcolor=black]
+24 [label="gmo.blog.polityka.pl/2014\n/09/17/rosliny-\ngenetycznie-modyfikowane-\nsa-bezpieczne-dla-\nsrodowiska-wyniki-badan-\nrzadowego-programu/", tooltip="gmo.blog.polityka.pl/2014/09/17/rosliny-genetycznie-modyfikowane-sa-bezpieczne-dla-srodowiska-wyniki-badan-rzadowego-programu/" , href="https://gmo.blog.polityka.pl/2014/09/17/rosliny-genetycznie-modyfikowane-sa-bezpieczne-dla-srodowiska-wyniki-badan-rzadowego-programu/",style=filled,color=green,fontcolor=black]
+42 [label="gmo.blog.polityka.pl/2013\n/11/28/lepiej-pozno-niz-\nwcale/", tooltip="gmo.blog.polityka.pl/2013/11/28/lepiej-pozno-niz-wcale/" , href="https://gmo.blog.polityka.pl/2013/11/28/lepiej-pozno-niz-wcale/",style=filled,color=green,fontcolor=black]
+44 [label="gmo.blog.polityka.pl/2012\n/10/22/o-seralinim-\nponownie/", tooltip="gmo.blog.polityka.pl/2012/10/22/o-seralinim-ponownie/" , href="https://gmo.blog.polityka.pl/2012/10/22/o-seralinim-ponownie/",style=filled,color=green,fontcolor=black]
+46 [label="gmo.blog.polityka.pl/2012\n/10/05/opinia-efsa-w-\nsprawie-kontrowersyjnych-\nbadan/", tooltip="gmo.blog.polityka.pl/2012/10/05/opinia-efsa-w-sprawie-kontrowersyjnych-badan/" , href="https://gmo.blog.polityka.pl/2012/10/05/opinia-efsa-w-sprawie-kontrowersyjnych-badan/",style=filled,color=green,fontcolor=black]
+48 [label="gmo.blog.polityka.pl/2012\n/09/20/seralini-\nsuperstar/", tooltip="gmo.blog.polityka.pl/2012/09/20/seralini-superstar/" , href="https://gmo.blog.polityka.pl/2012/09/20/seralini-superstar/",style=filled,color=green,fontcolor=black]
+50 [label="gmo.blog.polityka.pl/2012\n/03/12/prof-seralini-\nhistorii-ciag-dalszy/", tooltip="gmo.blog.polityka.pl/2012/03/12/prof-seralini-historii-ciag-dalszy/" , href="https://gmo.blog.polityka.pl/2012/03/12/prof-seralini-historii-ciag-dalszy/",style=filled,color=green,fontcolor=black]
+76 [label="polityka.pl/tygodnikpolit\nyka/nauka/1558121,1,bawel\nniany-watek-samobojczy-w-\nindiach-przez-gmo.read", tooltip="polityka.pl/tygodnikpolityka/nauka/1558121,1,bawelniany-watek-samobojczy-w-indiach-przez-gmo.read" , href="https://polityka.pl/tygodnikpolityka/nauka/1558121%2C1%2Cbawelniany-watek-samobojczy-w-indiach-przez-gmo.read",style=filled,color=green,fontcolor=black]
+84 [label="gmo.blog.polityka.pl/2012\n/03/07/znow-te-pszczoly/", tooltip="gmo.blog.polityka.pl/2012/03/07/znow-te-pszczoly/" , href="https://gmo.blog.polityka.pl/2012/03/07/znow-te-pszczoly/",style=filled,color=green,fontcolor=black]
+92 [label="gmo.blog.polityka.pl/2015\n/03/15/konsensus-naukowy-\nws-bezpieczenstwa-gmo/", tooltip="gmo.blog.polityka.pl/2015/03/15/konsensus-naukowy-ws-bezpieczenstwa-gmo/" , href="https://gmo.blog.polityka.pl/2015/03/15/konsensus-naukowy-ws-bezpieczenstwa-gmo/",style=filled,color=green,fontcolor=black]
+94 [label="gmo.blog.polityka.pl/2013\n/04/22/srodowisko-i-\nrolnicy-zyskuja-dzieki-\ngmo-cz-1/", tooltip="gmo.blog.polityka.pl/2013/04/22/srodowisko-i-rolnicy-zyskuja-dzieki-gmo-cz-1/" , href="https://gmo.blog.polityka.pl/2013/04/22/srodowisko-i-rolnicy-zyskuja-dzieki-gmo-cz-1/",style=filled,color=green,fontcolor=black]
+96 [label="gmo.blog.polityka.pl/2013\n/04/25/srodowisko-i-\nrolnicy-zyskuja-dzieki-\ngmo-cz-2/", tooltip="gmo.blog.polityka.pl/2013/04/25/srodowisko-i-rolnicy-zyskuja-dzieki-gmo-cz-2/" , href="https://gmo.blog.polityka.pl/2013/04/25/srodowisko-i-rolnicy-zyskuja-dzieki-gmo-cz-2/",style=filled,color=green,fontcolor=black]
+106 [label="gmo.blog.polityka.pl/2012\n/10/15/a-gdy-patent-\nwygasnie/", tooltip="gmo.blog.polityka.pl/2012/10/15/a-gdy-patent-wygasnie/" , href="https://gmo.blog.polityka.pl/2012/10/15/a-gdy-patent-wygasnie/",style=filled,color=green,fontcolor=black]
+120 [label="polityka.pl/tygodnikpolit\nyka/nauka/1522493,1,kto-\nnie-lubi-gmo.read", tooltip="polityka.pl/tygodnikpolityka/nauka/1522493,1,kto-nie-lubi-gmo.read" , href="https://polityka.pl/tygodnikpolityka/nauka/1522493%2C1%2Ckto-nie-lubi-gmo.read",style=filled,color=green,fontcolor=black]
+110 [label="gmoanswers.com/ask/are-\nantibiotic-resistance-\ngenes-removed-gmos-if-so-\nhow-achieved-if-not-are-\nthese-marker-genes", tooltip="gmoanswers.com/ask/are-antibiotic-resistance-genes-removed-gmos-if-so-how-achieved-if-not-are-these-marker-genes" , href="https://gmoanswers.com/ask/are-antibiotic-resistance-genes-removed-gmos-if-so-how-achieved-if-not-are-these-marker-genes",style=filled,color="#b94ba8",fontcolor=black]
+
+
+
+dummy[style=invis]
+edge[style=invis]
+1 -> dummy
+dummy0[style=invis]
+dummy -> dummy0
+dummy1[style=invis]
+dummy0 -> dummy1
+dummy2[style=invis]
+dummy1 -> dummy2
+dummy3[style=invis]
+dummy2 -> dummy3
+dummy3 -> 34
+dummy3 -> 126
+dummy3 -> 100
+dummy3 -> 90
+dummy3 -> 6
+dummy3 -> 130
+dummy3 -> 134
+dummy3 -> 136
+dummy3 -> 10
+dummy3 -> 14
+edge[style=solid]
+
+
+edge[style=invis]
+
+34 -> 54 -> 88 -> 144 -> 94
+126 -> 56 -> 108 -> 24 -> 96
+100 -> 58 -> 2 -> 42 -> 106
+90 -> 60 -> 12 -> 44 -> 120
+6 -> 62 -> 52 -> 46 -> 110
+130 -> 4 -> 64 -> 48
+134 -> 16 -> 66 -> 50
+136 -> 20 -> 82 -> 76
+10 -> 30 -> 102 -> 84
+14 -> 32 -> 8 -> 92
+
+edge[style=solid]
+
+
+
+
+
+  edge[constraint=false];
+
+  1 -> 2 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 6 [color="#db6ae8"];
+  1 -> 8 [color="#db6ae8"];
+  1 -> 10 [color="#db6ae8"];
+  1 -> 12 [color="#db6ae8"];
+  1 -> 14 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 20 [color="#db6ae8"];
+  1 -> 20 [color="#db6ae8"];
+  1 -> 24 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 30 [color="#db6ae8"];
+  1 -> 32 [color="#db6ae8"];
+  1 -> 34 [color="#db6ae8"];
+  1 -> 20 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 42 [color="#db6ae8"];
+  1 -> 44 [color="#db6ae8"];
+  1 -> 46 [color="#db6ae8"];
+  1 -> 48 [color="#db6ae8"];
+  1 -> 50 [color="#db6ae8"];
+  1 -> 52 [color="#db6ae8"];
+  1 -> 54 [color="#db6ae8"];
+  1 -> 56 [color="#db6ae8"];
+  1 -> 58 [color="#db6ae8"];
+  1 -> 60 [color="#db6ae8"];
+  1 -> 62 [color="#db6ae8"];
+  1 -> 64 [color="#db6ae8"];
+  1 -> 66 [color="#db6ae8"];
+  1 -> 32 [color="#db6ae8"];
+  1 -> 30 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 76 [color="#db6ae8"];
+  1 -> 32 [color="#db6ae8"];
+  1 -> 30 [color="#db6ae8"];
+  1 -> 82 [color="#db6ae8"];
+  1 -> 84 [color="#db6ae8"];
+  1 -> 82 [color="#db6ae8"];
+  1 -> 88 [color="#db6ae8"];
+  1 -> 90 [color="#db6ae8"];
+  1 -> 92 [color="#db6ae8"];
+  1 -> 94 [color="#db6ae8"];
+  1 -> 96 [color="#db6ae8"];
+  1 -> 2 [color="#db6ae8"];
+  1 -> 100 [color="#db6ae8"];
+  1 -> 102 [color="#db6ae8"];
+  1 -> 66 [color="#db6ae8"];
+  1 -> 106 [color="#db6ae8"];
+  1 -> 108 [color="#db6ae8"];
+  1 -> 110 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 12 [color="#db6ae8"];
+  1 -> 52 [color="#db6ae8"];
+  1 -> 120 [color="#db6ae8"];
+  1 -> 88 [color="#db6ae8"];
+  1 -> 64 [color="#db6ae8"];
+  1 -> 126 [color="#db6ae8"];
+  1 -> 88 [color="#db6ae8"];
+  1 -> 130 [color="#db6ae8"];
+  1 -> 108 [color="#db6ae8"];
+  1 -> 134 [color="#db6ae8"];
+  1 -> 136 [color="#db6ae8"];
+  1 -> 102 [color="#db6ae8"];
+  1 -> 16 [color="#db6ae8"];
+  1 -> 4 [color="#db6ae8"];
+  1 -> 144 [color="#db6ae8"];
+  1 -> 108 [color="#db6ae8"];
+  1 -> 20 [color="#db6ae8"];
+}

@@ -1,0 +1,761 @@
+// Made using a script from ciemnastrona.com.pl.
+// You can modify the graph by making changes to this file,
+// then launching the console in the same folder and typing:
+
+// dot -T svg graph.gv -o graph.svg
+
+// (dot must be installed on your computer)
+digraph Connections {
+
+  edge [color="#8caff3", penwidth="2"];
+  node [color="#4bc9c8", fontcolor="#dddddd"];
+  graph [fontname="Helvetica", bgcolor="#252525", ranksep="2", nodesep="1.2", rankdir="LR", splines="line", newrank="true", overlap="prism"];
+
+68 [label="agdaily.com/insights/farm\n-babe-label-trends-end/", tooltip="agdaily.com/insights/farm-babe-label-trends-end/" , href="https://agdaily.com/insights/farm-babe-label-trends-end/"]
+490 [label="usda.gov/codex", tooltip="usda.gov/codex" , href="https://usda.gov/codex"]
+164 [label="siquierotransgenicos.cl/2\n015/06/13/more-\nthan-240-organizations-\nand-scientific-\ninstitutions-support-the-\nsafety-of-gm-crops/", tooltip="siquierotransgenicos.cl/2015/06/13/more-than-240-organizations-and-scientific-institutions-support-the-safety-of-gm-crops/" , href="https://siquierotransgenicos.cl/2015/06/13/more-than-240-organizations-and-scientific-institutions-support-the-safety-of-gm-crops/"]
+38 [label="en.wikipedia.org/wiki/poi\nsoning_the_well", tooltip="en.wikipedia.org/wiki/poisoning_the_well" , href="https://en.wikipedia.org/wiki/poisoning_the_well"]
+254 [label="uh.edu/~trdegreg/genetic_\nengineering_not_significa\nntly.htm", tooltip="uh.edu/~trdegreg/genetic_engineering_not_significantly.htm" , href="https://uh.edu/%7Etrdegreg/genetic_engineering_not_significantly.htm"]
+262 [label="en.wikipedia.org/wiki/nei\nl_degrasse_tyson", tooltip="en.wikipedia.org/wiki/neil_degrasse_tyson" , href="https://en.wikipedia.org/wiki/neil_degrasse_tyson"]
+456 [label="ncbi.nlm.nih.gov/pmc/arti\ncles/pmc2682994/", tooltip="ncbi.nlm.nih.gov/pmc/articles/pmc2682994/" , href="https://ncbi.nlm.nih.gov/pmc/articles/pmc2682994/"]
+2 [label="ascienceenthusiast.com/or\nganic-crops-use-\ncarcinogenic-pesticides/", tooltip="ascienceenthusiast.com/organic-crops-use-carcinogenic-pesticides/" , href="https://ascienceenthusiast.com/organic-crops-use-carcinogenic-pesticides/"]
+4 [label="cbs.com/shows/cbs_evening\n_news/video/unavz0ldrhlrs\nnhw_kzviifswdesbs9c/fda-\napproves-brand-new-way-\nto-treat-leukemia/", tooltip="cbs.com/shows/cbs_evening_news/video/unavz0ldrhlrsnhw_kzviifswdesbs9c/fda-approves-brand-new-way-to-treat-leukemia/" , href="https://cbs.com/shows/cbs_evening_news/video/unavz0ldrhlrsnhw_kzviifswdesbs9c/fda-approves-brand-new-way-to-treat-leukemia/"]
+54 [label="ecfr.gov/cgi-bin/text-idx\n?c=ecfr&sid=9874504b6f102\n5eb0e6b67cadf9d3b40&rgn=d\niv6&view=text&node=7:3.1.\n1.9.32.7&idno=7", tooltip="ecfr.gov/cgi-bin/text-idx?c=ecfr&sid=9874504b6f1025eb0e6b67cadf9d3b40&rgn=div6&view=text&node=7:3.1.1.9.32.7&idno=7" , href="https://ecfr.gov/cgi-bin/text-idx%3Fc%3Decfr%26sid%3D9874504b6f1025eb0e6b67cadf9d3b40%26rgn%3Ddiv6%26view%3Dtext%26node%3D7%3A3.1.1.9.32.7%26idno%3D7"]
+62 [label="thefarmersdaughterusa.com\n/2015/03/throwback-to-\nchildhood-if-glyphosate-\nis-so-safe-then-why-dont-\nyou-drink-it.html", tooltip="thefarmersdaughterusa.com/2015/03/throwback-to-childhood-if-glyphosate-is-so-safe-then-why-dont-you-drink-it.html" , href="https://thefarmersdaughterusa.com/2015/03/throwback-to-childhood-if-glyphosate-is-so-safe-then-why-dont-you-drink-it.html"]
+472 [label="foodnavigator-\nusa.com/markets/the-\norganic-food-industry-\nhas-been-engaged-in-a-\nmulti-decade-public-\ndisinformation-campaign-\nclaims-report?utm_source=\ncopyright&utm_medium=onsi\nte&utm_campaign=copyright", tooltip="foodnavigator-usa.com/markets/the-organic-food-industry-has-been-engaged-in-a-multi-decade-public-disinformation-campaign-claims-report?utm_source=copyright&utm_medium=onsite&utm_campaign=copyright" , href="https://foodnavigator-usa.com/markets/the-organic-food-industry-has-been-engaged-in-a-multi-decade-public-disinformation-campaign-claims-report%3Futm_source%3Dcopyright%26utm_medium%3Donsite%26utm_campaign%3Dcopyright"]
+94 [label="npr.org/sections/thesalt/\n2019/01/26/687852367/peop\nle-strongly-against-gmos-\nhad-shakier-\nunderstanding-of-food-\nscience-study-fin", tooltip="npr.org/sections/thesalt/2019/01/26/687852367/people-strongly-against-gmos-had-shakier-understanding-of-food-science-study-fin" , href="https://npr.org/sections/thesalt/2019/01/26/687852367/people-strongly-against-gmos-had-shakier-understanding-of-food-science-study-fin"]
+130 [label="ncbi.nlm.nih.gov/pmc/arti\ncles/", tooltip="ncbi.nlm.nih.gov/pmc/articles/" , href="https://ncbi.nlm.nih.gov/pmc/articles/"]
+168 [label="cancer.org/latest-\nnews/cancer-facts-and-\nfigures-death-rate-\ndown-25-since-1991.html", tooltip="cancer.org/latest-news/cancer-facts-and-figures-death-rate-down-25-since-1991.html" , href="https://cancer.org/latest-news/cancer-facts-and-figures-death-rate-down-25-since-1991.html"]
+408 [label="seer.cancer.gov/statfacts\n/html/hodg.html", tooltip="seer.cancer.gov/statfacts/html/hodg.html" , href="https://seer.cancer.gov/statfacts/html/hodg.html"]
+18 [label="weedcontrolfreaks.com/201\n4/06/salt-vinegar-and-\nglyphosate/", tooltip="weedcontrolfreaks.com/2014/06/salt-vinegar-and-glyphosate/" , href="https://weedcontrolfreaks.com/2014/06/salt-vinegar-and-glyphosate/"]
+58 [label="academic.oup.com/jnci/art\nicle/110/5/509/4590280", tooltip="academic.oup.com/jnci/article/110/5/509/4590280" , href="https://academic.oup.com/jnci/article/110/5/509/4590280"]
+64 [label="skepticalraptor.com/skept\nicalraptorblog.php/logica\nl-fallacies/shill-gambit-\nlogical-fallacies/", tooltip="skepticalraptor.com/skepticalraptorblog.php/logical-fallacies/shill-gambit-logical-fallacies/" , href="https://skepticalraptor.com/skepticalraptorblog.php/logical-fallacies/shill-gambit-logical-fallacies/"]
+84 [label="onlinelibrary.wiley.com/d\noi/epdf/10.1111/pbi.13261", tooltip="onlinelibrary.wiley.com/doi/epdf/10.1111/pbi.13261" , href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/pbi.13261"]
+116 [label="skepticalraptor.com/skept\nicalraptorblog.php/simple\n-math-the-dose-makes-the-\npoison/", tooltip="skepticalraptor.com/skepticalraptorblog.php/simple-math-the-dose-makes-the-poison/" , href="https://skepticalraptor.com/skepticalraptorblog.php/simple-math-the-dose-makes-the-poison/"]
+766 [label="fsis.usda.gov/wps/portal/\nfsis/topics/international\n-affairs/us-codex-\nalimentarius", tooltip="fsis.usda.gov/wps/portal/fsis/topics/international-affairs/us-codex-alimentarius" , href="https://fsis.usda.gov/wps/portal/fsis/topics/international-affairs/us-codex-alimentarius"]
+482 [label="en.wikipedia.org/wiki/lea\nky_gut_syndrome", tooltip="en.wikipedia.org/wiki/leaky_gut_syndrome" , href="https://en.wikipedia.org/wiki/leaky_gut_syndrome"]
+484 [label="badgut.org/information-\ncentre/a-z-digestive-\ntopics/leaky-gut-\nsyndrome/", tooltip="badgut.org/information-centre/a-z-digestive-topics/leaky-gut-syndrome/" , href="https://badgut.org/information-centre/a-z-digestive-topics/leaky-gut-syndrome/"]
+22 [label="gmoinfo.eu/eu/news.php?ne\nws=blog-misinformation-\nis-the-only-poison--the-\nend-of-the-seralini-\naffair", tooltip="gmoinfo.eu/eu/news.php?news=blog-misinformation-is-the-only-poison--the-end-of-the-seralini-affair" , href="https://gmoinfo.eu/eu/news.php%3Fnews%3Dblog-misinformation-is-the-only-poison--the-end-of-the-seralini-affair"]
+26 [label="bioscriptionblog.com/2018\n/12/18/eu-refutation-\nseralini-anti-gmo/", tooltip="bioscriptionblog.com/2018/12/18/eu-refutation-seralini-anti-gmo/" , href="https://bioscriptionblog.com/2018/12/18/eu-refutation-seralini-anti-gmo/"]
+28 [label="sciencebasedmedicine.org/\nthe-seralini-gmo-study-\nretraction-and-response-\nto-critics/", tooltip="sciencebasedmedicine.org/the-seralini-gmo-study-retraction-and-response-to-critics/" , href="https://sciencebasedmedicine.org/the-seralini-gmo-study-retraction-and-response-to-critics/"]
+32 [label="academic.oup.com/jnci/art\nicle/doi/10.1093/jnci/djx\n233/4590280", tooltip="academic.oup.com/jnci/article/doi/10.1093/jnci/djx233/4590280" , href="https://academic.oup.com/jnci/article/doi/10.1093/jnci/djx233/4590280"]
+46 [label="european-\nbiotechnology.com/up-to-\ndate/latest-\nnews/news/germany-to-\nallow-gmos-without-\nlabelling.html", tooltip="european-biotechnology.com/up-to-date/latest-news/news/germany-to-allow-gmos-without-labelling.html" , href="https://european-biotechnology.com/up-to-date/latest-news/news/germany-to-allow-gmos-without-labelling.html"]
+584 [label="growingproduce.com/vegeta\nbles/3-gmo-late-blight-\nresistant-potato-\nvarieties-get-epa-\napproval/", tooltip="growingproduce.com/vegetables/3-gmo-late-blight-resistant-potato-varieties-get-epa-approval/" , href="https://growingproduce.com/vegetables/3-gmo-late-blight-resistant-potato-varieties-get-epa-approval/"]
+102 [label="news.nationalpost.com/new\ns/the-myth-of-indias-gm-\ngenocide-genetically-\nmodified-cotton-blamed-\nfor-wave-of-farmer-\nsuicides", tooltip="news.nationalpost.com/news/the-myth-of-indias-gm-genocide-genetically-modified-cotton-blamed-for-wave-of-farmer-suicides" , href="https://news.nationalpost.com/news/the-myth-of-indias-gm-genocide-genetically-modified-cotton-blamed-for-wave-of-farmer-suicides"]
+616 [label="agweb.com/article/new-\ngmo-to-reduce-cases-of-\nliver-cancer-naa-sonja-\nbegemann", tooltip="agweb.com/article/new-gmo-to-reduce-cases-of-liver-cancer-naa-sonja-begemann" , href="https://agweb.com/article/new-gmo-to-reduce-cases-of-liver-cancer-naa-sonja-begemann"]
+618 [label="rationalwiki.org/wiki/see\nds_of_death", tooltip="rationalwiki.org/wiki/seeds_of_death" , href="https://rationalwiki.org/wiki/seeds_of_death"]
+180 [label="washingtonpost.com/news/w\nonk/wp/2015/07/23/call-\noff-the-bee-pocalypse-u-\ns-honeybee-colonies-\nhit-a-20-year-\nhigh/?noredirect=on", tooltip="washingtonpost.com/news/wonk/wp/2015/07/23/call-off-the-bee-pocalypse-u-s-honeybee-colonies-hit-a-20-year-high/?noredirect=on" , href="https://washingtonpost.com/news/wonk/wp/2015/07/23/call-off-the-bee-pocalypse-u-s-honeybee-colonies-hit-a-20-year-high/%3Fnoredirect%3Don"]
+270 [label="agdaily.com/technology/se\ncret-ingredients-review-\nmenu-of-deceit/", tooltip="agdaily.com/technology/secret-ingredients-review-menu-of-deceit/" , href="https://agdaily.com/technology/secret-ingredients-review-menu-of-deceit/"]
+274 [label="frozenink.net/2013/10/a-r\nefutation-of-the-\nifrts-10-reasons-to-\navoid-gmos/", tooltip="frozenink.net/2013/10/a-refutation-of-the-ifrts-10-reasons-to-avoid-gmos/" , href="https://frozenink.net/2013/10/a-refutation-of-the-ifrts-10-reasons-to-avoid-gmos/"]
+280 [label="celiac.org/main/wp-conten\nt/uploads/2013/12/2013-12\n-04.pdf", tooltip="celiac.org/main/wp-content/uploads/2013/12/2013-12-04.pdf" , href="https://celiac.org/main/wp-content/uploads/2013/12/2013-12-04.pdf"]
+344 [label="fas.org/biosecurity/educa\ntion/dualuse-agriculture/\n2.-agricultural-\nbiotechnology/starlink-\ncorn.html", tooltip="fas.org/biosecurity/education/dualuse-agriculture/2.-agricultural-biotechnology/starlink-corn.html" , href="https://fas.org/biosecurity/education/dualuse-agriculture/2.-agricultural-biotechnology/starlink-corn.html"]
+876 [label="en.wikipedia.org/wiki/van\ndana_shiva#indian_intelli\ngence_bureau_investigatio\nn", tooltip="en.wikipedia.org/wiki/vandana_shiva#indian_intelligence_bureau_investigation" , href="https://en.wikipedia.org/wiki/vandana_shiva%23indian_intelligence_bureau_investigation"]
+378 [label="cameronjenglish.net/singl\ne-post/2017/10/22/episode\n-18-exposing-corruption-\nsecrecy-on-iarc-\nglyphosate-panel-jon-\nentine", tooltip="cameronjenglish.net/single-post/2017/10/22/episode-18-exposing-corruption-secrecy-on-iarc-glyphosate-panel-jon-entine" , href="https://cameronjenglish.net/single-post/2017/10/22/episode-18-exposing-corruption-secrecy-on-iarc-glyphosate-panel-jon-entine"]
+428 [label="sciencedirect.com/science\n/article/pii/s02786915120\n05637", tooltip="sciencedirect.com/science/article/pii/s0278691512005637" , href="https://sciencedirect.com/science/article/pii/s0278691512005637"]
+486 [label="sciencebasedmedicine.org/\nleaky-brain-leaky-gut-\nare-they-real/", tooltip="sciencebasedmedicine.org/leaky-brain-leaky-gut-are-they-real/" , href="https://sciencebasedmedicine.org/leaky-brain-leaky-gut-are-they-real/"]
+14 [label="ams.usda.gov/sites/defaul\nt/files/media/final%20bil\nl%20s764%20gmo%20discosur\ne.pdf", tooltip="ams.usda.gov/sites/default/files/media/final%20bill%20s764%20gmo%20discosure.pdf" , href="https://ams.usda.gov/sites/default/files/media/final%2520bill%2520s764%2520gmo%2520discosure.pdf"]
+526 [label="pesticidetruths.com/2011/\n11/27/organic-pesticides-\ncause-cancer-in-rats-and-\nmice-omri-listed/", tooltip="pesticidetruths.com/2011/11/27/organic-pesticides-cause-cancer-in-rats-and-mice-omri-listed/" , href="https://pesticidetruths.com/2011/11/27/organic-pesticides-cause-cancer-in-rats-and-mice-omri-listed/"]
+546 [label="thehill.com/policy/energy\n-environment/375655-russi\na-trying-to-sway-us-\nopinion-on-gmos-\nresearchers-say", tooltip="thehill.com/policy/energy-environment/375655-russia-trying-to-sway-us-opinion-on-gmos-researchers-say" , href="https://thehill.com/policy/energy-environment/375655-russia-trying-to-sway-us-opinion-on-gmos-researchers-say"]
+36 [label="thefarmersdaughterusa.com\n/2017/05/bombing-\nmonsanto-research-\nfacility-highlights-\nimpact-messaging.html", tooltip="thefarmersdaughterusa.com/2017/05/bombing-monsanto-research-facility-highlights-impact-messaging.html" , href="https://thefarmersdaughterusa.com/2017/05/bombing-monsanto-research-facility-highlights-impact-messaging.html"]
+48 [label="news.nationalpost.com/new\ns/the-myth-of-indias-gm-\ngenocide-genetically-\nmodified-cotton-blamed-\nfor-wave-of-farmer-\nsuicidesyou", tooltip="news.nationalpost.com/news/the-myth-of-indias-gm-genocide-genetically-modified-cotton-blamed-for-wave-of-farmer-suicidesyou" , href="https://news.nationalpost.com/news/the-myth-of-indias-gm-genocide-genetically-modified-cotton-blamed-for-wave-of-farmer-suicidesyou"]
+56 [label="seer.cancer.gov/statfacts\n/html/nhl.html", tooltip="seer.cancer.gov/statfacts/html/nhl.html" , href="https://seer.cancer.gov/statfacts/html/nhl.html"]
+60 [label="google.com/search?q=paten\nted+farm+animals&oq=paten\nted+farm+animals&aqs=chro\nme..69i57.6069j0j7&source\nid=chrome&ie=utf-8", tooltip="google.com/search?q=patented+farm+animals&oq=patented+farm+animals&aqs=chrome..69i57.6069j0j7&sourceid=chrome&ie=utf-8" , href="https://google.com/search%3Fq%3Dpatented%2Bfarm%2Banimals%26oq%3Dpatented%2Bfarm%2Banimals%26aqs%3Dchrome..69i57.6069j0j7%26sourceid%3Dchrome%26ie%3Dutf-8"]
+580 [label="cafc.uscourts.gov/sites/d\nefault/files/opinions-ord\ners/12-1298.opinion.6-6-2\n013.1.pdf", tooltip="cafc.uscourts.gov/sites/default/files/opinions-orders/12-1298.opinion.6-6-2013.1.pdf" , href="https://cafc.uscourts.gov/sites/default/files/opinions-orders/12-1298.opinion.6-6-2013.1.pdf"]
+586 [label="isaaa.org/resources/publi\ncations/pocketk/43/defaul\nt.asp", tooltip="isaaa.org/resources/publications/pocketk/43/default.asp" , href="https://isaaa.org/resources/publications/pocketk/43/default.asp"]
+78 [label="the-scientist.com/news-\nopinion/the-long-road-to-\nedible-cottonseed-66560", tooltip="the-scientist.com/news-opinion/the-long-road-to-edible-cottonseed-66560" , href="https://the-scientist.com/news-opinion/the-long-road-to-edible-cottonseed-66560"]
+606 [label="bbc.com/news/science-\nenvironment-12636902", tooltip="bbc.com/news/science-environment-12636902" , href="https://bbc.com/news/science-environment-12636902"]
+96 [label="harvestpublicmedia.org/po\nst/study-people-opposed-\ngmos-don-t-know-much-\nabout-science-they-think", tooltip="harvestpublicmedia.org/post/study-people-opposed-gmos-don-t-know-much-about-science-they-think" , href="https://harvestpublicmedia.org/post/study-people-opposed-gmos-don-t-know-much-about-science-they-think"]
+608 [label="intechopen.com/books/vita\nmin-a/golden-rice-to-\ncombat-vitamin-a-\ndeficiency-for-public-\nhealth", tooltip="intechopen.com/books/vitamin-a/golden-rice-to-combat-vitamin-a-deficiency-for-public-health" , href="https://intechopen.com/books/vitamin-a/golden-rice-to-combat-vitamin-a-deficiency-for-public-health"]
+610 [label="ers.usda.gov/amber-\nwaves/2019/march/drought-\ntolerant-corn-in-the-\nunited-states-research-\ncommercialization-and-\nrelated-crop-production-\npractices/", tooltip="ers.usda.gov/amber-waves/2019/march/drought-tolerant-corn-in-the-united-states-research-commercialization-and-related-crop-production-practices/" , href="https://ers.usda.gov/amber-waves/2019/march/drought-tolerant-corn-in-the-united-states-research-commercialization-and-related-crop-production-practices/"]
+104 [label="nytimes.com/2015/04/25/op\ninion/sunday/how-i-got-\nconverted-to-gmo-\nfood.html?_r=1", tooltip="nytimes.com/2015/04/25/opinion/sunday/how-i-got-converted-to-gmo-food.html?_r=1" , href="https://nytimes.com/2015/04/25/opinion/sunday/how-i-got-converted-to-gmo-food.html%3F_r%3D1"]
+620 [label="bt.ucsd.edu/how_bt_work.h\ntml", tooltip="bt.ucsd.edu/how_bt_work.html" , href="https://bt.ucsd.edu/how_bt_work.html"]
+112 [label="http:siquierotransgenicos\n.cl/2015/06/13/more-\nthan-240-organizations-\nand-scientific-\ninstitutions-support-the-\nsafety-of-gm-crops/", tooltip="http:siquierotransgenicos.cl/2015/06/13/more-than-240-organizations-and-scientific-institutions-support-the-safety-of-gm-crops/" , href="http%3Asiquierotransgenicos.cl/2015/06/13/more-than-240-organizations-and-scientific-institutions-support-the-safety-of-gm-crops/"]
+630 [label="en.wikipedia.org/wiki/gly\nphosate", tooltip="en.wikipedia.org/wiki/glyphosate" , href="https://en.wikipedia.org/wiki/glyphosate"]
+632 [label="reuters.com/article/us-\nbrazil-glyphosate/brazil-\ncourt-yet-to-rule-on-\nglyphosate-minister-says-\ntweet-was-wrong-\niduskcn1l918f", tooltip="reuters.com/article/us-brazil-glyphosate/brazil-court-yet-to-rule-on-glyphosate-minister-says-tweet-was-wrong-iduskcn1l918f" , href="https://reuters.com/article/us-brazil-glyphosate/brazil-court-yet-to-rule-on-glyphosate-minister-says-tweet-was-wrong-iduskcn1l918f"]
+644 [label="npr.org/sections/thesalt/\n2018/10/17/658221327/not-\njust-for-cows-anymore-\nnew-cottonseed-is-safe-\nfor-people-to-eat", tooltip="npr.org/sections/thesalt/2018/10/17/658221327/not-just-for-cows-anymore-new-cottonseed-is-safe-for-people-to-eat" , href="https://npr.org/sections/thesalt/2018/10/17/658221327/not-just-for-cows-anymore-new-cottonseed-is-safe-for-people-to-eat"]
+656 [label="en.wikipedia.org/wiki/age\nnt_orange", tooltip="en.wikipedia.org/wiki/agent_orange" , href="https://en.wikipedia.org/wiki/agent_orange"]
+658 [label="history.com/topics/vietna\nm-war/agent-orange", tooltip="history.com/topics/vietnam-war/agent-orange" , href="https://history.com/topics/vietnam-war/agent-orange"]
+660 [label="military.com/benefits/vet\nerans-health-care/agent-\norange.html", tooltip="military.com/benefits/veterans-health-care/agent-orange.html" , href="https://military.com/benefits/veterans-health-care/agent-orange.html"]
+150 [label="slate.com/articles/health\n_and_science/science/2015\n/07/are_gmos_safe_yes_the\n_case_against_them_is_ful\nl_of_fraud_lies_and_error\ns.html", tooltip="slate.com/articles/health_and_science/science/2015/07/are_gmos_safe_yes_the_case_against_them_is_full_of_fraud_lies_and_errors.html" , href="https://slate.com/articles/health_and_science/science/2015/07/are_gmos_safe_yes_the_case_against_them_is_full_of_fraud_lies_and_errors.html"]
+662 [label="nytimes.com/2014/05/12/us\n/agent-oranges-long-\nlegacy-for-vietnam-and-\nveterans.html", tooltip="nytimes.com/2014/05/12/us/agent-oranges-long-legacy-for-vietnam-and-veterans.html" , href="https://nytimes.com/2014/05/12/us/agent-oranges-long-legacy-for-vietnam-and-veterans.html"]
+152 [label="purushatma.wordpress.com/\n2015/07/14/vandana-shiva-\nthe-pseudoscientific-\nfeminist-fraud/", tooltip="purushatma.wordpress.com/2015/07/14/vandana-shiva-the-pseudoscientific-feminist-fraud/" , href="https://purushatma.wordpress.com/2015/07/14/vandana-shiva-the-pseudoscientific-feminist-fraud/"]
+162 [label="en.wikipedia.org/wiki/far\nmers%27_suicides_in_india", tooltip="en.wikipedia.org/wiki/farmers%27_suicides_in_india" , href="https://en.wikipedia.org/wiki/farmers%2527_suicides_in_india"]
+190 [label="academic.oup.com/jnci/art\nicle/110/5/509/4590280/", tooltip="academic.oup.com/jnci/article/110/5/509/4590280/" , href="https://academic.oup.com/jnci/article/110/5/509/4590280/"]
+192 [label="reliefweb.int/report/indi\na/traditional-seed-banks-\nkey-food-security", tooltip="reliefweb.int/report/india/traditional-seed-banks-key-food-security" , href="https://reliefweb.int/report/india/traditional-seed-banks-key-food-security"]
+194 [label="reuters.com/article/india\n-cotton-gmo/defying-law-\nindian-farm-group-says-\nit-planted-unapproved-gm-\ncotton-seeds-\nidusl4n23h2n4", tooltip="reuters.com/article/india-cotton-gmo/defying-law-indian-farm-group-says-it-planted-unapproved-gm-cotton-seeds-idusl4n23h2n4" , href="https://reuters.com/article/india-cotton-gmo/defying-law-indian-farm-group-says-it-planted-unapproved-gm-cotton-seeds-idusl4n23h2n4"]
+200 [label="parrottlab.uga.edu/parrot\ntlab/publications/arjo-\net-al-trag-2013.pdf", tooltip="parrottlab.uga.edu/parrottlab/publications/arjo-et-al-trag-2013.pdf" , href="https://parrottlab.uga.edu/parrottlab/publications/arjo-et-al-trag-2013.pdf"]
+228 [label="usbiotechnologyregulation\n.mrp.usda.gov/biotechnolo\ngygov/home/", tooltip="usbiotechnologyregulation.mrp.usda.gov/biotechnologygov/home/" , href="https://usbiotechnologyregulation.mrp.usda.gov/biotechnologygov/home/"]
+246 [label="nationalgeographic.org/en\ncyclopedia/food-staple/", tooltip="nationalgeographic.org/encyclopedia/food-staple/" , href="https://nationalgeographic.org/encyclopedia/food-staple/"]
+260 [label="bt.ucsd.edu/crop_refuge.h\ntml", tooltip="bt.ucsd.edu/crop_refuge.html" , href="https://bt.ucsd.edu/crop_refuge.html"]
+782 [label="nytimes.com/2019/03/15/ar\nts/neil-degrasse-tyson-\nsexual-misconduct.html", tooltip="nytimes.com/2019/03/15/arts/neil-degrasse-tyson-sexual-misconduct.html" , href="https://nytimes.com/2019/03/15/arts/neil-degrasse-tyson-sexual-misconduct.html"]
+810 [label="fs.fed.us/foresthealth/pe\nsticide/pdfs/glyphosate_s\nera_tr-052-22-03b.pdf", tooltip="fs.fed.us/foresthealth/pesticide/pdfs/glyphosate_sera_tr-052-22-03b.pdf" , href="https://fs.fed.us/foresthealth/pesticide/pdfs/glyphosate_sera_tr-052-22-03b.pdf"]
+814 [label="fafdl.org/gmobb/4-of-17-d\noes-glyphosate-harm-gut-\nbacteria/", tooltip="fafdl.org/gmobb/4-of-17-does-glyphosate-harm-gut-bacteria/" , href="https://fafdl.org/gmobb/4-of-17-does-glyphosate-harm-gut-bacteria/"]
+304 [label="fao.org/soils-\nportal/soil-degradation-\nrestoration/global-soil-\nhealth-indicators-and-\nassessment/global-soil-\nhealth/en/", tooltip="fao.org/soils-portal/soil-degradation-restoration/global-soil-health-indicators-and-assessment/global-soil-health/en/" , href="https://fao.org/soils-portal/soil-degradation-restoration/global-soil-health-indicators-and-assessment/global-soil-health/en/"]
+310 [label="ag.purdue.edu/gmos/pages/\nwhygmos.aspx", tooltip="ag.purdue.edu/gmos/pages/whygmos.aspx" , href="https://ag.purdue.edu/gmos/pages/whygmos.aspx"]
+314 [label="sciencedirect.com/search?\nqs=gmo&show=25&sortby=rel\nevance", tooltip="sciencedirect.com/search?qs=gmo&show=25&sortby=relevance" , href="https://sciencedirect.com/search%3Fqs%3Dgmo%26show%3D25%26sortby%3Drelevance"]
+840 [label="academic.oup.com/jnci/art\nicle-abstract/110/5/509/4\n590280?redirectedfrom=ful\nltext", tooltip="academic.oup.com/jnci/article-abstract/110/5/509/4590280?redirectedfrom=fulltext" , href="https://academic.oup.com/jnci/article-abstract/110/5/509/4590280%3Fredirectedfrom%3Dfulltext"]
+842 [label="nytimes.com/2017/11/27/bu\nsiness/eu-glyphosate-\npesticide.html", tooltip="nytimes.com/2017/11/27/business/eu-glyphosate-pesticide.html" , href="https://nytimes.com/2017/11/27/business/eu-glyphosate-pesticide.html"]
+852 [label="skepticink.com/smilodonsr\netreat/2012/10/24/a-surve\ny-of-long-term-gm-food-\nstudies/", tooltip="skepticink.com/smilodonsretreat/2012/10/24/a-survey-of-long-term-gm-food-studies/" , href="https://skepticink.com/smilodonsretreat/2012/10/24/a-survey-of-long-term-gm-food-studies/"]
+360 [label="sciencedirect.com/science\n?_ob=articlelisturl&_meth\nod=list&_articlelistid=-1\n216388386&_st=13&filterty\npe=&searchtype=a&originpa\nge=rslt_list&_origin=&_ml\nkttype=&md5=ecd6efff755b2\n9e00ade55da49342c7f", tooltip="sciencedirect.com/science?_ob=articlelisturl&_method=list&_articlelistid=-1216388386&_st=13&filtertype=&searchtype=a&originpage=rslt_list&_origin=&_mlkttype=&md5=ecd6efff755b29e00ade55da49342c7f" , href="https://sciencedirect.com/science%3F_ob%3Darticlelisturl%26_method%3Dlist%26_articlelistid%3D-1216388386%26_st%3D13%26filtertype%3D%26searchtype%3Da%26originpage%3Drslt_list%26_origin%3D%26_mlkttype%3D%26md5%3Decd6efff755b29e00ade55da49342c7f"]
+884 [label="realclearscience.com/blog\n/2014/06/the_biggest_myth\n_about_organic_farming.ht\nml", tooltip="realclearscience.com/blog/2014/06/the_biggest_myth_about_organic_farming.html" , href="https://realclearscience.com/blog/2014/06/the_biggest_myth_about_organic_farming.html"]
+886 [label="nutritionwonderland.com/2\n009/12/the-truth-about-\norganic-farming/", tooltip="nutritionwonderland.com/2009/12/the-truth-about-organic-farming/" , href="https://nutritionwonderland.com/2009/12/the-truth-about-organic-farming/"]
+432 [label="nature.com/articles/s4158\n7-019-0117-z.epdf?author_\naccess_token=hbzmc7zldx4q\njmf6ktguadrgn0jajwel9jnr3\nzotv0m4l9bz6vl8oscl3qjnzx\nqgd9gbkmq4mc3ro74e27h3ur5\nlsrux52nkrxfmhrjqxartmsgn\n61vi7xgmiqd4jksrmrv8likic\n4oewws0dwhpkg%3d%3d", tooltip="nature.com/articles/s41587-019-0117-z.epdf?author_access_token=hbzmc7zldx4qjmf6ktguadrgn0jajwel9jnr3zotv0m4l9bz6vl8oscl3qjnzxqgd9gbkmq4mc3ro74e27h3ur5lsrux52nkrxfmhrjqxartmsgn61vi7xgmiqd4jksrmrv8likic4oewws0dwhpkg%3d%3d" , href="https://nature.com/articles/s41587-019-0117-z.epdf%3Fauthor_access_token%3Dhbzmc7zldx4qjmf6ktguadrgn0jajwel9jnr3zotv0m4l9bz6vl8oscl3qjnzxqgd9gbkmq4mc3ro74e27h3ur5lsrux52nkrxfmhrjqxartmsgn61vi7xgmiqd4jksrmrv8likic4oewws0dwhpkg%253d%253d"]
+498 [label="goldenrice.org/index.php", tooltip="goldenrice.org/index.php" , href="https://goldenrice.org/index.php"]
+502 [label="mediabiasfactcheck.com/ge\nnetic-literacy-project/", tooltip="mediabiasfactcheck.com/genetic-literacy-project/" , href="https://mediabiasfactcheck.com/genetic-literacy-project/"]
+114 [label="youtube.com/watch?v=nehet\n56w0pu&t=1s", tooltip="youtube.com/watch?v=nehet56w0pu&t=1s" , href="https://youtube.com/watch%3Fv%3Dnehet56w0pu%26t%3D1s",style=filled,color=red,fontcolor=black]
+124 [label="youtube.com/watch?v=xvfd6\ndrn0cg&sns=em", tooltip="youtube.com/watch?v=xvfd6drn0cg&sns=em" , href="https://youtube.com/watch%3Fv%3Dxvfd6drn0cg%26sns%3Dem",style=filled,color=red,fontcolor=black]
+40 [label="youtube.com/watch?v=3j67m\nhpbcrm&list=plauajc-y1bjp\nqdwgszo-bnfdpi9kdge_o&t=1\n8s&index=1", tooltip="youtube.com/watch?v=3j67mhpbcrm&list=plauajc-y1bjpqdwgszo-bnfdpi9kdge_o&t=18s&index=1" , href="https://youtube.com/watch%3Fv%3D3j67mhpbcrm%26list%3Dplauajc-y1bjpqdwgszo-bnfdpi9kdge_o%26t%3D18s%26index%3D1",style=filled,color=red,fontcolor=black]
+80 [label="youtube.com/watch?v=m8sge\nhphm4k", tooltip="youtube.com/watch?v=m8sgehphm4k" , href="https://youtube.com/watch%3Fv%3Dm8sgehphm4k",style=filled,color=red,fontcolor=black]
+156 [label="youtube.com/watch?v=ygv2d\nfhiatw&feature=youtu.be", tooltip="youtube.com/watch?v=ygv2dfhiatw&feature=youtu.be" , href="https://youtube.com/watch%3Fv%3Dygv2dfhiatw%26feature%3Dyoutu.be",style=filled,color=red,fontcolor=black]
+34 [label="youtu.be/9nc6q94wtnw", tooltip="youtu.be/9nc6q94wtnw" , href="https://youtu.be/9nc6q94wtnw",style=filled,color=red,fontcolor=black]
+42 [label="youtube.com/watch?v=wytzn\n4mgbso&feature=youtu.be", tooltip="youtube.com/watch?v=wytzn4mgbso&feature=youtu.be" , href="https://youtube.com/watch%3Fv%3Dwytzn4mgbso%26feature%3Dyoutu.be",style=filled,color=red,fontcolor=black]
+306 [label="youtube.com/watch?v=09ljh\nyw0rrq&t=1s", tooltip="youtube.com/watch?v=09ljhyw0rrq&t=1s" , href="https://youtube.com/watch%3Fv%3D09ljhyw0rrq%26t%3D1s",style=filled,color=red,fontcolor=black]
+698 [label="youtube.com/watch?v=3figs\nrpbxaa", tooltip="youtube.com/watch?v=3figsrpbxaa" , href="https://youtube.com/watch%3Fv%3D3figsrpbxaa",style=filled,color=red,fontcolor=black]
+1 [label="GMO - Dobre czy Złe?\nInżynieria Genetyczna\noraz Nasze Jedzenie -\nYouTube", tooltip="GMO - Dobre czy Złe?Inżynieria Genetycznaoraz Nasze Jedzenie -YouTube" ,style=filled,color=red,fontcolor=black]
+3 [label="Monsanto vs Farmers -\nYouTube", tooltip="Monsanto vs Farmers -YouTube" ,style=filled,color=red,fontcolor=black]
+7 [label="The secret tactics\nMonsanto used to protect\nRoundup, its star product\n| Four Corners - YouTube", tooltip="The secret tacticsMonsanto used to protectRoundup, its star product| Four Corners - YouTube" ,style=filled,color=red,fontcolor=black]
+9 [label="Monsanto CEO on debate\nover GMO and food\nlabeling - YouTube", tooltip="Monsanto CEO on debateover GMO and foodlabeling - YouTube" ,style=filled,color=red,fontcolor=black]
+15 [label="Genetically Modified\nFoods - GMO or OMG? Get\nImmune Against\nGenetically Modified\nOrganisms – Dr.Berg -\nYouTube", tooltip="Genetically ModifiedFoods - GMO or OMG? GetImmune AgainstGenetically ModifiedOrganisms – Dr.Berg -YouTube" ,style=filled,color=red,fontcolor=black]
+19 [label="Glifosat, rak i\nśrodowisko. Czy GMO jest\nbezpieczne? | UNFOLD -\nYouTube", tooltip="Glifosat, rak iśrodowisko. Czy GMO jestbezpieczne? | UNFOLD -YouTube" ,style=filled,color=red,fontcolor=black]
+789 [label="GMO Foods, Glyphosate,\nAutism & Obesity -\nStephanie Seneff -\nYouTube", tooltip="GMO Foods, Glyphosate,Autism & Obesity -Stephanie Seneff -YouTube" ,style=filled,color=red,fontcolor=black]
+29 [label="GMO OMG documentary on\nChemical Food Conspiracy\nw/ Jeremy Seifert -\nYouTube", tooltip="GMO OMG documentary onChemical Food Conspiracyw/ Jeremy Seifert -YouTube" , href="https://gmo%20omg%20documentary%20onchemical%20food%20conspiracyw/%20jeremy%20seifert%20-youtube",style=filled,color=red,fontcolor=black]
+35 [label="Farmers Speak Out: GMOs\nare a Trap That Monsanto\nis Using to Take Over\nAgriculture - YouTube", tooltip="Farmers Speak Out: GMOsare a Trap That Monsantois Using to Take OverAgriculture - YouTube" ,style=filled,color=red,fontcolor=black]
+813 [label="Guy drinks Glyphosate /\nRoundup on Camera -\nYouTube", tooltip="Guy drinks Glyphosate /Roundup on Camera -YouTube" , href="https://guy%20drinks%20glyphosate%20/roundup%20on%20camera%20-youtube",style=filled,color=red,fontcolor=black]
+49 [label="No-Till and Glyphosate -\nYouTube", tooltip="No-Till and Glyphosate -YouTube" ,style=filled,color=red,fontcolor=black]
+55 [label="Monsanto: The True Cost\nof Our Food - YouTube", tooltip="Monsanto: The True Costof Our Food - YouTube" ,style=filled,color=red,fontcolor=black]
+59 [label="Monsanto - Patent For a\nPig (2006) - YouTube", tooltip="Monsanto - Patent For aPig (2006) - YouTube" ,style=filled,color=red,fontcolor=black]
+61 [label="Ganesh Nanote on Bt\nCotton farming in India -\nYouTube", tooltip="Ganesh Nanote on BtCotton farming in India -YouTube" ,style=filled,color=red,fontcolor=black]
+859 [label="Seeds of Death: Unveiling\nThe Lies of GMO's Full\nDocumentary HD - YouTube", tooltip="Seeds of Death: UnveilingThe Lies of GMO's FullDocumentary HD - YouTube" ,style=filled,color=red,fontcolor=black]
+861 [label="Monsanto Hopes to Sell\nMore GMOs in India -\nYouTube", tooltip="Monsanto Hopes to SellMore GMOs in India -YouTube" ,style=filled,color=red,fontcolor=black]
+97 [label="Percy Schmeiser - David\nversus Monsanto - YouTube", tooltip="Percy Schmeiser - Davidversus Monsanto - YouTube" ,style=filled,color=red,fontcolor=black]
+99 [label="Maui Lawsuit Alleges\nBirth Defects Caused by\nMonsanto’s “Reckless Use\nof Pesticides” - YouTube", tooltip="Maui Lawsuit AllegesBirth Defects Caused byMonsanto’s “Reckless Useof Pesticides” - YouTube" ,style=filled,color=red,fontcolor=black]
+227 [label="Neil deGrasse Tyson gets\nto the bottom of GMOs -\nYouTube", tooltip="Neil deGrasse Tyson getsto the bottom of GMOs -YouTube" ,style=filled,color=red,fontcolor=black]
+101 [label="Why India's cotton\nfarmers are killing\nthemselves - YouTube", tooltip="Why India's cottonfarmers are killingthemselves - YouTube" ,style=filled,color=red,fontcolor=black]
+105 [label="Pamela Ronald: The case\nfor engineering our food\n- YouTube", tooltip="Pamela Ronald: The casefor engineering our food- YouTube" ,style=filled,color=red,fontcolor=black]
+881 [label="GMO controversies -\nscience vs. public fear:\nBorut Bohanec at\nTEDxLjubljana - YouTube", tooltip="GMO controversies -science vs. public fear:Borut Bohanec atTEDxLjubljana - YouTube" ,style=filled,color=red,fontcolor=black]
+8 [label="geneticliteracyproject.or\ng/2013/10/08/with-2000-gl\nobal-studies-confirming-\nsafety-gm-foods-among-\nmost-analyzed-subject-in-\nscience/", tooltip="geneticliteracyproject.org/2013/10/08/with-2000-global-studies-confirming-safety-gm-foods-among-most-analyzed-subject-in-science/" , href="https://geneticliteracyproject.org/2013/10/08/with-2000-global-studies-confirming-safety-gm-foods-among-most-analyzed-subject-in-science/",style=filled,color="#8caff3",fontcolor=black]
+458 [label="geneticliteracyproject.or\ng/2016/01/13/no-long-\nterm-gmo-studies-humans/", tooltip="geneticliteracyproject.org/2016/01/13/no-long-term-gmo-studies-humans/" , href="https://geneticliteracyproject.org/2016/01/13/no-long-term-gmo-studies-humans/",style=filled,color="#8caff3",fontcolor=black]
+66 [label="geneticliteracyproject.or\ng/2017/06/19/gmo-20-year-\nsafety-\nendorsement-280-science-\ninstitutions-\nmore-3000-studies/", tooltip="geneticliteracyproject.org/2017/06/19/gmo-20-year-safety-endorsement-280-science-institutions-more-3000-studies/" , href="https://geneticliteracyproject.org/2017/06/19/gmo-20-year-safety-endorsement-280-science-institutions-more-3000-studies/",style=filled,color="#8caff3",fontcolor=black]
+370 [label="geneticliteracyproject.or\ng/glp-facts/iarc-\ninternational-agency-\nresearch-cancer-\nglyphosate-determination-\nworld-consensus/", tooltip="geneticliteracyproject.org/glp-facts/iarc-international-agency-research-cancer-glyphosate-determination-world-consensus/" , href="https://geneticliteracyproject.org/glp-facts/iarc-international-agency-research-cancer-glyphosate-determination-world-consensus/",style=filled,color="#8caff3",fontcolor=black]
+132 [label="geneticliteracyproject.or\ng/2016/01/13/", tooltip="geneticliteracyproject.org/2016/01/13/" , href="https://geneticliteracyproject.org/2016/01/13/",style=filled,color="#8caff3",fontcolor=black]
+20 [label="geneticliteracyproject.or\ng/2019/02/20/seralini-\npseudoscience-syndicate-\nlessons-learned-from-\ndecade-long-assault-on-\nbiotechnology-\norchestrated-by-french-\ngeneticist/", tooltip="geneticliteracyproject.org/2019/02/20/seralini-pseudoscience-syndicate-lessons-learned-from-decade-long-assault-on-biotechnology-orchestrated-by-french-geneticist/" , href="https://geneticliteracyproject.org/2019/02/20/seralini-pseudoscience-syndicate-lessons-learned-from-decade-long-assault-on-biotechnology-orchestrated-by-french-geneticist/",style=filled,color="#8caff3",fontcolor=black]
+582 [label="geneticliteracyproject.or\ng/2019/07/23/home-field-\nadvantage-in-missouri-\ntrial-could-boost-bayers-\nfortunes-in-glyphosate-\ncancer-legal-battle/", tooltip="geneticliteracyproject.org/2019/07/23/home-field-advantage-in-missouri-trial-could-boost-bayers-fortunes-in-glyphosate-cancer-legal-battle/" , href="https://geneticliteracyproject.org/2019/07/23/home-field-advantage-in-missouri-trial-could-boost-bayers-fortunes-in-glyphosate-cancer-legal-battle/",style=filled,color="#8caff3",fontcolor=black]
+90 [label="geneticliteracyproject.or\ng/2019/05/21/glyphosate-\ncan-cure-cancer-yes-some-\nresearch-shows-that-but-\nwhat-does-it-mean-and-\nwhat-does-it-say-about-\nroundup-doomsday-claims/", tooltip="geneticliteracyproject.org/2019/05/21/glyphosate-can-cure-cancer-yes-some-research-shows-that-but-what-does-it-mean-and-what-does-it-say-about-roundup-doomsday-claims/" , href="https://geneticliteracyproject.org/2019/05/21/glyphosate-can-cure-cancer-yes-some-research-shows-that-but-what-does-it-mean-and-what-does-it-say-about-roundup-doomsday-claims/",style=filled,color="#8caff3",fontcolor=black]
+372 [label="geneticliteracyproject.or\ng/2018/08/06/congressiona\nl-committee-cuts-funding-\nto-iarc-over-who-agencys-\ncontroversial-glyphosate-\ncancer-finding/", tooltip="geneticliteracyproject.org/2018/08/06/congressional-committee-cuts-funding-to-iarc-over-who-agencys-controversial-glyphosate-cancer-finding/" , href="https://geneticliteracyproject.org/2018/08/06/congressional-committee-cuts-funding-to-iarc-over-who-agencys-controversial-glyphosate-cancer-finding/",style=filled,color="#8caff3",fontcolor=black]
+70 [label="geneticliteracyproject.or\ng/2019/12/06/european-\nunion-green-lights-\nimports-of-eight-gmo-\ncrops/", tooltip="geneticliteracyproject.org/2019/12/06/european-union-green-lights-imports-of-eight-gmo-crops/" , href="https://geneticliteracyproject.org/2019/12/06/european-union-green-lights-imports-of-eight-gmo-crops/",style=filled,color="#8caff3",fontcolor=black]
+214 [label="gmo.geneticliteracyprojec\nt.org/faq/how-does-\ngenetic-engineering-\ndiffer-from-conventional-\nbreeding/", tooltip="gmo.geneticliteracyproject.org/faq/how-does-genetic-engineering-differ-from-conventional-breeding/" , href="https://gmo.geneticliteracyproject.org/faq/how-does-genetic-engineering-differ-from-conventional-breeding/",style=filled,color="#8caff3",fontcolor=black]
+146 [label="geneticliteracyproject.or\ng/2016/11/23/97-us-farms-\nfamily-businesses-not-\ncorporate-owned/", tooltip="geneticliteracyproject.org/2016/11/23/97-us-farms-family-businesses-not-corporate-owned/" , href="https://geneticliteracyproject.org/2016/11/23/97-us-farms-family-businesses-not-corporate-owned/",style=filled,color="#8caff3",fontcolor=black]
+166 [label="geneticliteracyproject.or\ng/2017/12/06/viewpoint-12\n-ways-organic-activists-\nmislead-consumers/", tooltip="geneticliteracyproject.org/2017/12/06/viewpoint-12-ways-organic-activists-mislead-consumers/" , href="https://geneticliteracyproject.org/2017/12/06/viewpoint-12-ways-organic-activists-mislead-consumers/",style=filled,color="#8caff3",fontcolor=black]
+196 [label="geneticliteracyproject.or\ng/2017/11/30/vote-\napprove-glyphosate-\nherbicide-shakes-german-\neu-politics/", tooltip="geneticliteracyproject.org/2017/11/30/vote-approve-glyphosate-herbicide-shakes-german-eu-politics/" , href="https://geneticliteracyproject.org/2017/11/30/vote-approve-glyphosate-herbicide-shakes-german-eu-politics/",style=filled,color="#8caff3",fontcolor=black]
+72 [label="geneticliteracyproject.or\ng/2020/06/03/after-\nillegal-seed-planting-\nin-2019-indian-farmers-\nagain-demand-access-to-\ngmo-herbicide-tolerant-\ncotton/", tooltip="geneticliteracyproject.org/2020/06/03/after-illegal-seed-planting-in-2019-indian-farmers-again-demand-access-to-gmo-herbicide-tolerant-cotton/" , href="https://geneticliteracyproject.org/2020/06/03/after-illegal-seed-planting-in-2019-indian-farmers-again-demand-access-to-gmo-herbicide-tolerant-cotton/",style=filled,color="#8caff3",fontcolor=black]
+256 [label="geneticliteracyproject.or\ng/2019/10/07/viewpoint-\ndont-buy-organic-food-if-\nyou-want-to-seriously-\naddress-climate-change/", tooltip="geneticliteracyproject.org/2019/10/07/viewpoint-dont-buy-organic-food-if-you-want-to-seriously-address-climate-change/" , href="https://geneticliteracyproject.org/2019/10/07/viewpoint-dont-buy-organic-food-if-you-want-to-seriously-address-climate-change/",style=filled,color="#8caff3",fontcolor=black]
+640 [label="geneticliteracyproject.or\ng/2018/08/01/prominent-\nanti-gmo-and-organic-\nbusinesses-partnered-\nwith-russia-to-smear-\namerican-agriculture/", tooltip="geneticliteracyproject.org/2018/08/01/prominent-anti-gmo-and-organic-businesses-partnered-with-russia-to-smear-american-agriculture/" , href="https://geneticliteracyproject.org/2018/08/01/prominent-anti-gmo-and-organic-businesses-partnered-with-russia-to-smear-american-agriculture/",style=filled,color="#8caff3",fontcolor=black]
+514 [label="geneticliteracyproject.or\ng/2019/06/07/why-gmos-\narent-responsible-for-a-\nspike-in-food-allergies/", tooltip="geneticliteracyproject.org/2019/06/07/why-gmos-arent-responsible-for-a-spike-in-food-allergies/" , href="https://geneticliteracyproject.org/2019/06/07/why-gmos-arent-responsible-for-a-spike-in-food-allergies/",style=filled,color="#8caff3",fontcolor=black]
+266 [label="geneticliteracyproject.or\ng/2013/12/05/jeffery-\nsmiths-claim-of-rampant-\ngmogluten-allergies-\nrebuked-by-celiac-\ndisease-foundation/", tooltip="geneticliteracyproject.org/2013/12/05/jeffery-smiths-claim-of-rampant-gmogluten-allergies-rebuked-by-celiac-disease-foundation/" , href="https://geneticliteracyproject.org/2013/12/05/jeffery-smiths-claim-of-rampant-gmogluten-allergies-rebuked-by-celiac-disease-foundation/",style=filled,color="#8caff3",fontcolor=black]
+268 [label="geneticliteracyproject.or\ng/2015/04/06/jeffrey-\nsmith-i-know-nothing-\nabout-gmos-but-that-\ndoesnt-stop-me-from-\npromoting-junk-science/", tooltip="geneticliteracyproject.org/2015/04/06/jeffrey-smith-i-know-nothing-about-gmos-but-that-doesnt-stop-me-from-promoting-junk-science/" , href="https://geneticliteracyproject.org/2015/04/06/jeffrey-smith-i-know-nothing-about-gmos-but-that-doesnt-stop-me-from-promoting-junk-science/",style=filled,color="#8caff3",fontcolor=black]
+278 [label="geneticliteracyproject.or\ng/2017/05/17/fear-\nprofiteers-6-snake-oil-\nsalesmen-watch/", tooltip="geneticliteracyproject.org/2017/05/17/fear-profiteers-6-snake-oil-salesmen-watch/" , href="https://geneticliteracyproject.org/2017/05/17/fear-profiteers-6-snake-oil-salesmen-watch/",style=filled,color="#8caff3",fontcolor=black]
+540 [label="geneticliteracyproject.or\ng/2019/04/11/30000-food-\nproducts-with-non-gmo-\nproject-label-may-be-\nfalse-or-misleading-fda-\nguidance-document-says/", tooltip="geneticliteracyproject.org/2019/04/11/30000-food-products-with-non-gmo-project-label-may-be-false-or-misleading-fda-guidance-document-says/" , href="https://geneticliteracyproject.org/2019/04/11/30000-food-products-with-non-gmo-project-label-may-be-false-or-misleading-fda-guidance-document-says/",style=filled,color="#8caff3",fontcolor=black]
+44 [label="geneticliteracyproject.or\ng/2017/11/01/one-italian-\ncorn-farmer-stood-anti-\ngmo-activists-government-\nwon/", tooltip="geneticliteracyproject.org/2017/11/01/one-italian-corn-farmer-stood-anti-gmo-activists-government-won/" , href="https://geneticliteracyproject.org/2017/11/01/one-italian-corn-farmer-stood-anti-gmo-activists-government-won/",style=filled,color="#8caff3",fontcolor=black]
+52 [label="geneticliteracyproject.or\ng/2017/05/17/uk-approves-\nfield-trial-gm-potatoes-\nresistant-blight-\nnematode/", tooltip="geneticliteracyproject.org/2017/05/17/uk-approves-field-trial-gm-potatoes-resistant-blight-nematode/" , href="https://geneticliteracyproject.org/2017/05/17/uk-approves-field-trial-gm-potatoes-resistant-blight-nematode/",style=filled,color="#8caff3",fontcolor=black]
+318 [label="geneticliteracyproject.or\ng/2019/05/01/viewpoint-\nwhy-grow-gmo-crops-\nbecause-they-cut-\npesticide-use-37/", tooltip="geneticliteracyproject.org/2019/05/01/viewpoint-why-grow-gmo-crops-because-they-cut-pesticide-use-37/" , href="https://geneticliteracyproject.org/2019/05/01/viewpoint-why-grow-gmo-crops-because-they-cut-pesticide-use-37/",style=filled,color="#8caff3",fontcolor=black]
+74 [label="geneticliteracyproject.or\ng/2020/06/05/farmers-in-\nparaguay-see-major-yield-\nincreases-with-gmo-corn-\ndespite-degraded-soil/", tooltip="geneticliteracyproject.org/2020/06/05/farmers-in-paraguay-see-major-yield-increases-with-gmo-corn-despite-degraded-soil/" , href="https://geneticliteracyproject.org/2020/06/05/farmers-in-paraguay-see-major-yield-increases-with-gmo-corn-despite-degraded-soil/",style=filled,color="#8caff3",fontcolor=black]
+718 [label="geneticliteracyproject.or\ng/2015/07/22/fraud-or-\ndrift-usda-\nfinds-43-percent-of-\norganic-foods-contain-\nprohibited-substances/", tooltip="geneticliteracyproject.org/2015/07/22/fraud-or-drift-usda-finds-43-percent-of-organic-foods-contain-prohibited-substances/" , href="https://geneticliteracyproject.org/2015/07/22/fraud-or-drift-usda-finds-43-percent-of-organic-foods-contain-prohibited-substances/",style=filled,color="#8caff3",fontcolor=black]
+208 [label="geneticliteracyproject.or\ng/2018/06/11/anti-gmo-\ngroups-draw-fda-rebuke-\nover-misrepresentation-\nof-golden-rice-nutrition/", tooltip="geneticliteracyproject.org/2018/06/11/anti-gmo-groups-draw-fda-rebuke-over-misrepresentation-of-golden-rice-nutrition/" , href="https://geneticliteracyproject.org/2018/06/11/anti-gmo-groups-draw-fda-rebuke-over-misrepresentation-of-golden-rice-nutrition/",style=filled,color="#8caff3",fontcolor=black]
+864 [label="geneticliteracyproject.or\ng/2016/07/25/talking-\nbiotech-cornell-\nuniversity-ronald-\nherring-bt-indian-farmer-\nsuicide/?_page=13&utm_sou\nrce=trendmd&utm_medium=cp\nc&utm_campaign=ancestry_%\n2526_evolution_trendmd_0", tooltip="geneticliteracyproject.org/2016/07/25/talking-biotech-cornell-university-ronald-herring-bt-indian-farmer-suicide/?_page=13&utm_source=trendmd&utm_medium=cpc&utm_campaign=ancestry_%2526_evolution_trendmd_0" , href="https://geneticliteracyproject.org/2016/07/25/talking-biotech-cornell-university-ronald-herring-bt-indian-farmer-suicide/%3F_page%3D13%26utm_source%3Dtrendmd%26utm_medium%3Dcpc%26utm_campaign%3Dancestry_%252526_evolution_trendmd_0",style=filled,color="#8caff3",fontcolor=black]
+504 [label="geneticliteracyproject.or\ng/mission-financials-\ngovernorship/", tooltip="geneticliteracyproject.org/mission-financials-governorship/" , href="https://geneticliteracyproject.org/mission-financials-governorship/",style=filled,color="#8caff3",fontcolor=black]
+16 [label="geneticliteracyproject.or\ng/2015/12/07/myth-\nbusting-on-pesticides-\ndespite-demonization-\norganic-farmers-widely-\nuse-them/", tooltip="geneticliteracyproject.org/2015/12/07/myth-busting-on-pesticides-despite-demonization-organic-farmers-widely-use-them/" , href="https://geneticliteracyproject.org/2015/12/07/myth-busting-on-pesticides-despite-demonization-organic-farmers-widely-use-them/",style=filled,color="#8caff3",fontcolor=black]
+154 [label="gmo.geneticliteracyprojec\nt.org/faq/are-gmos-to-\nblame-for-the-mass-\nsuicides-of-indian-\nfarmers/", tooltip="gmo.geneticliteracyproject.org/faq/are-gmos-to-blame-for-the-mass-suicides-of-indian-farmers/" , href="https://gmo.geneticliteracyproject.org/faq/are-gmos-to-blame-for-the-mass-suicides-of-indian-farmers/",style=filled,color="#8caff3",fontcolor=black]
+160 [label="geneticliteracyproject.or\ng/2014/07/17/anti-gmo-\nactivist-vandana-shiva-\nearns-40000-per-speech-\nadvocating-policies-that-\nharm-poor/", tooltip="geneticliteracyproject.org/2014/07/17/anti-gmo-activist-vandana-shiva-earns-40000-per-speech-advocating-policies-that-harm-poor/" , href="https://geneticliteracyproject.org/2014/07/17/anti-gmo-activist-vandana-shiva-earns-40000-per-speech-advocating-policies-that-harm-poor/",style=filled,color="#8caff3",fontcolor=black]
+548 [label="geneticliteracyproject.or\ng/2019/05/31/more-than-\none-third-of-americans-\ndo-not-know-foods-with-\nno-genetically-modified-\ningredients-contain-\ngenes/", tooltip="geneticliteracyproject.org/2019/05/31/more-than-one-third-of-americans-do-not-know-foods-with-no-genetically-modified-ingredients-contain-genes/" , href="https://geneticliteracyproject.org/2019/05/31/more-than-one-third-of-americans-do-not-know-foods-with-no-genetically-modified-ingredients-contain-genes/",style=filled,color="#8caff3",fontcolor=black]
+808 [label="geneticliteracyproject.or\ng/2019/10/21/viewpoint-\ndocumentary-modified-\npeddles-falsehoods-about-\ngmos-pesticides-and-\ncorporate-control-of-\nfood/", tooltip="geneticliteracyproject.org/2019/10/21/viewpoint-documentary-modified-peddles-falsehoods-about-gmos-pesticides-and-corporate-control-of-food/" , href="https://geneticliteracyproject.org/2019/10/21/viewpoint-documentary-modified-peddles-falsehoods-about-gmos-pesticides-and-corporate-control-of-food/",style=filled,color="#8caff3",fontcolor=black]
+426 [label="geneticliteracyproject.or\ng/2019/02/20/seralini-\npseudoscience-syndicate-\nlessons-learned-from-\ndecade-long-assault-on-\nbiotechnology-\norchestrated-by-french-ge\nneticist/?fbclid=iwar35cw\nebwojlk0-hzxkd_gxaxmyfsnj\ndb1-iwelj1ylvup5exmnrgo12\n76c", tooltip="geneticliteracyproject.org/2019/02/20/seralini-pseudoscience-syndicate-lessons-learned-from-decade-long-assault-on-biotechnology-orchestrated-by-french-geneticist/?fbclid=iwar35cwebwojlk0-hzxkd_gxaxmyfsnjdb1-iwelj1ylvup5exmnrgo1276c" , href="https://geneticliteracyproject.org/2019/02/20/seralini-pseudoscience-syndicate-lessons-learned-from-decade-long-assault-on-biotechnology-orchestrated-by-french-geneticist/%3Ffbclid%3Diwar35cwebwojlk0-hzxkd_gxaxmyfsnjdb1-iwelj1ylvup5exmnrgo1276c",style=filled,color="#8caff3",fontcolor=black]
+430 [label="geneticliteracyproject.or\ng/2019/05/29/viewpoint-\nusda-gmo-labeling-plan-\nis-pointless-expensive-\nand-probably-\nunconstitutional/", tooltip="geneticliteracyproject.org/2019/05/29/viewpoint-usda-gmo-labeling-plan-is-pointless-expensive-and-probably-unconstitutional/" , href="https://geneticliteracyproject.org/2019/05/29/viewpoint-usda-gmo-labeling-plan-is-pointless-expensive-and-probably-unconstitutional/",style=filled,color="#8caff3",fontcolor=black]
+558 [label="geneticliteracyproject.or\ng/2019/08/05/finnish-\necological-\nsustainability-study-\nglyphosate-based-roundup-\nherbicide-has-minor-\ntransient-impacts-on-\nsoil-and-animal-health/", tooltip="geneticliteracyproject.org/2019/08/05/finnish-ecological-sustainability-study-glyphosate-based-roundup-herbicide-has-minor-transient-impacts-on-soil-and-animal-health/" , href="https://geneticliteracyproject.org/2019/08/05/finnish-ecological-sustainability-study-glyphosate-based-roundup-herbicide-has-minor-transient-impacts-on-soil-and-animal-health/",style=filled,color="#8caff3",fontcolor=black]
+436 [label="geneticliteracyproject.or\ng/2015/01/22/gmo-myth-\nfarmers-drown-crops-in-\ndangerous-glyphosate-\nfact-they-use-eye-\ndroppers/", tooltip="geneticliteracyproject.org/2015/01/22/gmo-myth-farmers-drown-crops-in-dangerous-glyphosate-fact-they-use-eye-droppers/" , href="https://geneticliteracyproject.org/2015/01/22/gmo-myth-farmers-drown-crops-in-dangerous-glyphosate-fact-they-use-eye-droppers/",style=filled,color="#8caff3",fontcolor=black]
+566 [label="geneticliteracyproject.or\ng/2013/10/04/potato-\nchips-dangerously-\ndelicious/", tooltip="geneticliteracyproject.org/2013/10/04/potato-chips-dangerously-delicious/" , href="https://geneticliteracyproject.org/2013/10/04/potato-chips-dangerously-delicious/",style=filled,color="#8caff3",fontcolor=black]
+312 [label="gmo.geneticliteracyprojec\nt.org/faq/are-gmos-\nnecessary-to-feed-the-\nworld/", tooltip="gmo.geneticliteracyproject.org/faq/are-gmos-necessary-to-feed-the-world/" , href="https://gmo.geneticliteracyproject.org/faq/are-gmos-necessary-to-feed-the-world/",style=filled,color="#8caff3",fontcolor=black]
+76 [label="geneticliteracyproject.or\ng/2020/08/10/why-grow-\ngmos-because-plants-dont-\nnaturally-evolve-into-\nfood-fit-for-humans/", tooltip="geneticliteracyproject.org/2020/08/10/why-grow-gmos-because-plants-dont-naturally-evolve-into-food-fit-for-humans/" , href="https://geneticliteracyproject.org/2020/08/10/why-grow-gmos-because-plants-dont-naturally-evolve-into-food-fit-for-humans/",style=filled,color="#8caff3",fontcolor=black]
+596 [label="geneticliteracyproject.or\ng/2017/05/01/canadas-\nhealth-regulator-\nreaffirms-glyphosate-\nherbicide-neither-\ngenotoxic-carcinogenic/", tooltip="geneticliteracyproject.org/2017/05/01/canadas-health-regulator-reaffirms-glyphosate-herbicide-neither-genotoxic-carcinogenic/" , href="https://geneticliteracyproject.org/2017/05/01/canadas-health-regulator-reaffirms-glyphosate-herbicide-neither-genotoxic-carcinogenic/",style=filled,color="#8caff3",fontcolor=black]
+862 [label="geneticliteracyproject.or\ng/2019/10/16/trials-\nshould-be-settled-by-\nscientific-evidence-not-\nspeculation-and-emotion-\nin-unusual-twist-\ncalifornia-medical-\ngroups-join-appeal-of-\njury-verdict-finding-\nmonsantos-round/", tooltip="geneticliteracyproject.org/2019/10/16/trials-should-be-settled-by-scientific-evidence-not-speculation-and-emotion-in-unusual-twist-california-medical-groups-join-appeal-of-jury-verdict-finding-monsantos-round/" , href="https://geneticliteracyproject.org/2019/10/16/trials-should-be-settled-by-scientific-evidence-not-speculation-and-emotion-in-unusual-twist-california-medical-groups-join-appeal-of-jury-verdict-finding-monsantos-round/",style=filled,color="#8caff3",fontcolor=black]
+868 [label="geneticliteracyproject.or\ng/2016/11/16/indian-anti-\ngmo-philosopher-vandana-\nshiva-doesnt-speak-\nindias-farmers/", tooltip="geneticliteracyproject.org/2016/11/16/indian-anti-gmo-philosopher-vandana-shiva-doesnt-speak-indias-farmers/" , href="https://geneticliteracyproject.org/2016/11/16/indian-anti-gmo-philosopher-vandana-shiva-doesnt-speak-indias-farmers/",style=filled,color="#8caff3",fontcolor=black]
+230 [label="geneticliteracyproject.or\ng/2019/12/12/99-of-\ntested-food-samples-well-\nbelow-epa-safety-limits-\nnew-usda-report-shows/", tooltip="geneticliteracyproject.org/2019/12/12/99-of-tested-food-samples-well-below-epa-safety-limits-new-usda-report-shows/" , href="https://geneticliteracyproject.org/2019/12/12/99-of-tested-food-samples-well-below-epa-safety-limits-new-usda-report-shows/",style=filled,color="#8caff3",fontcolor=black]
+232 [label="geneticliteracyproject.or\ng/2019/08/27/viewpoint-\nfarewell-to-terminator-\nseeds-1995-2015-the-anti-\ngmo-movements-favorite-\nbogeyman/", tooltip="geneticliteracyproject.org/2019/08/27/viewpoint-farewell-to-terminator-seeds-1995-2015-the-anti-gmo-movements-favorite-bogeyman/" , href="https://geneticliteracyproject.org/2019/08/27/viewpoint-farewell-to-terminator-seeds-1995-2015-the-anti-gmo-movements-favorite-bogeyman/",style=filled,color="#8caff3",fontcolor=black]
+622 [label="geneticliteracyproject.or\ng/2017/05/11/gmo-corn-\nshuts-carcinogenic-\nfungal-toxin-healthcare-\nboon-developing-\ncountries/", tooltip="geneticliteracyproject.org/2017/05/11/gmo-corn-shuts-carcinogenic-fungal-toxin-healthcare-boon-developing-countries/" , href="https://geneticliteracyproject.org/2017/05/11/gmo-corn-shuts-carcinogenic-fungal-toxin-healthcare-boon-developing-countries/",style=filled,color="#8caff3",fontcolor=black]
+756 [label="geneticliteracyproject.or\ng/2019/07/22/bayer-trial-\njudge-may-cut-2-billion-\nglyphosate-cancer-\ndamages-to-250-million/", tooltip="geneticliteracyproject.org/2019/07/22/bayer-trial-judge-may-cut-2-billion-glyphosate-cancer-damages-to-250-million/" , href="https://geneticliteracyproject.org/2019/07/22/bayer-trial-judge-may-cut-2-billion-glyphosate-cancer-damages-to-250-million/",style=filled,color="#8caff3",fontcolor=black]
+888 [label="geneticliteracyproject.or\ng/2016/12/01/myth-\nbusting-on-pesticides-\ndespite-demonization-\norganic-farmers-widely-\nuse-them/", tooltip="geneticliteracyproject.org/2016/12/01/myth-busting-on-pesticides-despite-demonization-organic-farmers-widely-use-them/" , href="https://geneticliteracyproject.org/2016/12/01/myth-busting-on-pesticides-despite-demonization-organic-farmers-widely-use-them/",style=filled,color="#8caff3",fontcolor=black]
+250 [label="geneticliteracyproject.or\ng/2019/09/12/pesticides-\ndont-pose-acute-health-\nrisk-to-honeybees-\nforaging-on-farmland-two-\nyear-study-finds/", tooltip="geneticliteracyproject.org/2019/09/12/pesticides-dont-pose-acute-health-risk-to-honeybees-foraging-on-farmland-two-year-study-finds/" , href="https://geneticliteracyproject.org/2019/09/12/pesticides-dont-pose-acute-health-risk-to-honeybees-foraging-on-farmland-two-year-study-finds/",style=filled,color="#8caff3",fontcolor=black]
+126 [label="geneticliteracyproject.or\ng/gmo-faq/glp-tackles-\none-of-the-most-\nfrequently-asked-biotech-\nquestions-what-are-gmos/", tooltip="geneticliteracyproject.org/gmo-faq/glp-tackles-one-of-the-most-frequently-asked-biotech-questions-what-are-gmos/" , href="https://geneticliteracyproject.org/gmo-faq/glp-tackles-one-of-the-most-frequently-asked-biotech-questions-what-are-gmos/",style=filled,color="#8caff3",fontcolor=black]
+110 [label="allianceforscience.cornel\nl.edu/blog/2016/05/gmo-\nsafety-debate-is-over/", tooltip="allianceforscience.cornell.edu/blog/2016/05/gmo-safety-debate-is-over/" , href="https://allianceforscience.cornell.edu/blog/2016/05/gmo-safety-debate-is-over/",style=filled,color="#7de1ea",fontcolor=black]
+24 [label="allianceforscience.cornel\nl.edu/blog/2018/06/europe\nan-studies-disprove-\nseralinis-gmo-maize-\ntumor-claims/", tooltip="allianceforscience.cornell.edu/blog/2018/06/european-studies-disprove-seralinis-gmo-maize-tumor-claims/" , href="https://allianceforscience.cornell.edu/blog/2018/06/european-studies-disprove-seralinis-gmo-maize-tumor-claims/",style=filled,color="#7de1ea",fontcolor=black]
+186 [label="allianceforscience.cornel\nl.edu/blog/2019/02/one-\nbillion-acres-bt-crops-\nzero-unintended-\nconsequences/", tooltip="allianceforscience.cornell.edu/blog/2019/02/one-billion-acres-bt-crops-zero-unintended-consequences/" , href="https://allianceforscience.cornell.edu/blog/2019/02/one-billion-acres-bt-crops-zero-unintended-consequences/",style=filled,color="#7de1ea",fontcolor=black]
+128 [label="allianceforscience.cornel\nl.edu/blog/2019/10/many-\nplants-naturally-gmo-\nresearch-finds/", tooltip="allianceforscience.cornell.edu/blog/2019/10/many-plants-naturally-gmo-research-finds/" , href="https://allianceforscience.cornell.edu/blog/2019/10/many-plants-naturally-gmo-research-finds/",style=filled,color="#7de1ea",fontcolor=black]
+298 [label="gmoanswers.com/gmo-myths-\nvs-facts", tooltip="gmoanswers.com/gmo-myths-vs-facts" , href="https://gmoanswers.com/gmo-myths-vs-facts",style=filled,color="#b94ba8",fontcolor=black]
+244 [label="gmoanswers.com/myth-\nbiotech-companies-block-\nindependent-research", tooltip="gmoanswers.com/myth-biotech-companies-block-independent-research" , href="https://gmoanswers.com/myth-biotech-companies-block-independent-research",style=filled,color="#b94ba8",fontcolor=black]
+480 [label="gmoanswers.com/ask/maybe-\ngmos-arent-problem-they-\nare-only-enabler-case-\nroundup-ready-enabling-\nfood-be-doused-it", tooltip="gmoanswers.com/ask/maybe-gmos-arent-problem-they-are-only-enabler-case-roundup-ready-enabling-food-be-doused-it" , href="https://gmoanswers.com/ask/maybe-gmos-arent-problem-they-are-only-enabler-case-roundup-ready-enabling-food-be-doused-it",style=filled,color="#b94ba8",fontcolor=black]
+272 [label="biofortified.org/2009/06/\nwho-is-jeffrey-smith/", tooltip="biofortified.org/2009/06/who-is-jeffrey-smith/" , href="https://biofortified.org/2009/06/who-is-jeffrey-smith/",style=filled,color="#7dea7f",fontcolor=black]
+276 [label="academicsreview.org/revie\nwed-\norganizations/institute-\nfor-responsible-\ntechnology-ifrt/", tooltip="academicsreview.org/reviewed-organizations/institute-for-responsible-technology-ifrt/" , href="https://academicsreview.org/reviewed-organizations/institute-for-responsible-technology-ifrt/",style=filled,color="#41a648",fontcolor=white]
+374 [label="acsh.org/news/2017/10/24/\nglyphosate-gate-iarcs-\nscientific-fraud-12014", tooltip="acsh.org/news/2017/10/24/glyphosate-gate-iarcs-scientific-fraud-12014" , href="https://acsh.org/news/2017/10/24/glyphosate-gate-iarcs-scientific-fraud-12014",style=filled,color="#763752",fontcolor=white]
+520 [label="risk-monger.blogactiv.eu/\n2016/03/18/10-reasons-\nwhy-glyphosate-is-good/", tooltip="risk-monger.blogactiv.eu/2016/03/18/10-reasons-why-glyphosate-is-good/" , href="https://risk-monger.blogactiv.eu/2016/03/18/10-reasons-why-glyphosate-is-good/",style=filled,color="#eab87d",fontcolor=black]
+376 [label="risk-monger.com/2017/10/1\n3/greed-lies-and-\nglyphosate-the-portier-\npapers/", tooltip="risk-monger.com/2017/10/13/greed-lies-and-glyphosate-the-portier-papers/" , href="https://risk-monger.com/2017/10/13/greed-lies-and-glyphosate-the-portier-papers/",style=filled,color="#eab87d",fontcolor=black]
+720 [label="risk-monger.com/2017/09/2\n8/twelve-lies-organic-\nlobbyists-commonly-\nspread-about-pesticides/", tooltip="risk-monger.com/2017/09/28/twelve-lies-organic-lobbyists-commonly-spread-about-pesticides/" , href="https://risk-monger.com/2017/09/28/twelve-lies-organic-lobbyists-commonly-spread-about-pesticides/",style=filled,color="#eab87d",fontcolor=black]
+654 [label="monsantoblog.eu/myth-8-mo\nnsanto-invented-agent-\norange/#.v79pgxp4_bi", tooltip="monsantoblog.eu/myth-8-monsanto-invented-agent-orange/#.v79pgxp4_bi" , href="https://monsantoblog.eu/myth-8-monsanto-invented-agent-orange/%23.v79pgxp4_bi",style=filled,color="#64045e",fontcolor=white]
+674 [label="monsanto.com/company/medi\na/statements/academic-\nresearch-agreements/", tooltip="monsanto.com/company/media/statements/academic-research-agreements/" , href="https://monsanto.com/company/media/statements/academic-research-agreements/",style=filled,color="#64045e",fontcolor=white]
+758 [label="monsanto.com/company/medi\na/statements/terminator-\nseeds-myth/", tooltip="monsanto.com/company/media/statements/terminator-seeds-myth/" , href="https://monsanto.com/company/media/statements/terminator-seeds-myth/",style=filled,color="#64045e",fontcolor=white]
+
+first_dummy[style=invis]
+edge[style=invis]
+114 -> first_dummy
+124 -> first_dummy
+40 -> first_dummy
+80 -> first_dummy
+156 -> first_dummy
+34 -> first_dummy
+42 -> first_dummy
+306 -> first_dummy
+698 -> first_dummy
+first_dummy -> 1
+first_dummy -> 3
+first_dummy -> 7
+first_dummy -> 9
+first_dummy -> 15
+first_dummy -> 19
+first_dummy -> 789
+first_dummy -> 29
+first_dummy -> 35
+first_dummy -> 813
+first_dummy -> 49
+first_dummy -> 55
+first_dummy -> 59
+first_dummy -> 61
+first_dummy -> 859
+first_dummy -> 861
+first_dummy -> 97
+first_dummy -> 99
+first_dummy -> 227
+first_dummy -> 101
+first_dummy -> 105
+first_dummy -> 881
+edge[style=solid]
+
+dummy[style=invis]
+edge[style=invis]
+1 -> dummy
+3 -> dummy
+7 -> dummy
+9 -> dummy
+15 -> dummy
+19 -> dummy
+789 -> dummy
+29 -> dummy
+35 -> dummy
+813 -> dummy
+49 -> dummy
+55 -> dummy
+59 -> dummy
+61 -> dummy
+859 -> dummy
+861 -> dummy
+97 -> dummy
+99 -> dummy
+227 -> dummy
+101 -> dummy
+105 -> dummy
+881 -> dummy
+dummy0[style=invis]
+dummy -> dummy0
+dummy1[style=invis]
+dummy0 -> dummy1
+dummy2[style=invis]
+dummy1 -> dummy2
+dummy3[style=invis]
+dummy2 -> dummy3
+dummy3 -> 68
+dummy3 -> 490
+dummy3 -> 164
+dummy3 -> 38
+dummy3 -> 254
+dummy3 -> 262
+dummy3 -> 456
+dummy3 -> 2
+dummy3 -> 4
+dummy3 -> 54
+dummy3 -> 62
+dummy3 -> 472
+dummy3 -> 94
+dummy3 -> 130
+dummy3 -> 168
+edge[style=solid]
+
+
+edge[style=invis]
+
+68 -> 408 -> 102 -> 36 -> 632 -> 260 -> 502 -> 72 -> 504 -> 868 -> 272
+490 -> 18 -> 616 -> 48 -> 644 -> 782 -> 8 -> 256 -> 16 -> 230 -> 276
+164 -> 58 -> 618 -> 56 -> 656 -> 810 -> 458 -> 640 -> 154 -> 232 -> 374
+38 -> 64 -> 180 -> 60 -> 658 -> 814 -> 66 -> 514 -> 160 -> 622 -> 520
+254 -> 84 -> 270 -> 580 -> 660 -> 304 -> 370 -> 266 -> 548 -> 756 -> 376
+262 -> 116 -> 274 -> 586 -> 150 -> 310 -> 132 -> 268 -> 808 -> 888 -> 720
+456 -> 766 -> 280 -> 78 -> 662 -> 314 -> 20 -> 278 -> 426 -> 250 -> 654
+2 -> 482 -> 344 -> 606 -> 152 -> 840 -> 582 -> 540 -> 430 -> 126 -> 674
+4 -> 484 -> 876 -> 96 -> 162 -> 842 -> 90 -> 44 -> 558 -> 110 -> 758
+54 -> 22 -> 378 -> 608 -> 190 -> 852 -> 372 -> 52 -> 436 -> 24
+62 -> 26 -> 428 -> 610 -> 192 -> 360 -> 70 -> 318 -> 566 -> 186
+472 -> 28 -> 486 -> 104 -> 194 -> 884 -> 214 -> 74 -> 312 -> 128
+94 -> 32 -> 14 -> 620 -> 200 -> 886 -> 146 -> 718 -> 76 -> 298
+130 -> 46 -> 526 -> 112 -> 228 -> 432 -> 166 -> 208 -> 596 -> 244
+168 -> 584 -> 546 -> 630 -> 246 -> 498 -> 196 -> 864 -> 862 -> 480
+
+edge[style=solid]
+
+
+
+
+
+  edge[constraint=false];
+
+  1 -> 2 [color="#ffd954"];
+  3 -> 4 [color="#ffd954"];
+  3 -> 4 [color="#ffd954"];
+  7 -> 8 [color="#ffd954"];
+  9 -> 4 [color="#ffd954"];
+  9 -> 4 [color="#ffd954"];
+  9 -> 14 [color="#ff3838"];
+  15 -> 16 [color="#ffd954"];
+  15 -> 18 [color="#ffd954"];
+  19 -> 20 [color="#ff3838"];
+  19 -> 22 [color="#ff3838"];
+  19 -> 24 [color="#ff3838"];
+  19 -> 26 [color="#ff3838"];
+  19 -> 28 [color="#ff3838"];
+  29 -> 4 [color="#ffd954"];
+  29 -> 32 [color="#ff3838"];
+  29 -> 34 [color="#ff3838"];
+  35 -> 36 [color="#ff3838"];
+  35 -> 38 [color="#c44ee6"];
+  35 -> 40 [color="#ff3838"];
+  35 -> 42 [color="#c44ee6"];
+  35 -> 44 [color="#c44ee6"];
+  35 -> 46 [color="#c44ee6"];
+  35 -> 48 [color="#c44ee6"];
+  49 -> 44 [color="#ff3838"];
+  49 -> 52 [color="#ff3838"];
+  49 -> 54 [color="#ff3838"];
+  55 -> 56 [color="#ffd954"];
+  55 -> 58 [color="#ffd954"];
+  59 -> 60 [color="#ff3838"];
+  61 -> 62 [color="#ff3838"];
+  61 -> 64 [color="#ff3838"];
+  61 -> 66 [color="#ff3838"];
+  61 -> 68 [color="#ff3838"];
+  61 -> 70 [color="#ff3838"];
+  61 -> 72 [color="#ff3838"];
+  61 -> 74 [color="#ff3838"];
+  61 -> 76 [color="#ff3838"];
+  61 -> 78 [color="#ff3838"];
+  61 -> 80 [color="#ff3838"];
+  61 -> 62 [color="#ff3838"];
+  61 -> 84 [color="#ff3838"];
+  61 -> 66 [color="#ff3838"];
+  61 -> 68 [color="#ff3838"];
+  61 -> 90 [color="#ff3838"];
+  61 -> 64 [color="#ff3838"];
+  61 -> 94 [color="#ff3838"];
+  61 -> 96 [color="#ff3838"];
+  97 -> 62 [color="#ff3838"];
+  99 -> 94 [color="#ff3838"];
+  101 -> 102 [color="#ff3838"];
+  101 -> 104 [color="#ff3838"];
+  105 -> 20 [color="#ff3838"];
+  105 -> 38 [color="#ff3838"];
+  105 -> 110 [color="#ff3838"];
+  105 -> 112 [color="#ff3838"];
+  105 -> 114 [color="#ff3838"];
+  105 -> 116 [color="#ff3838"];
+  105 -> 66 [color="#ff3838"];
+  105 -> 68 [color="#ff3838"];
+  105 -> 68 [color="#ff3838"];
+  105 -> 124 [color="#ffd954"];
+  105 -> 126 [color="#ff3838"];
+  105 -> 128 [color="#ff3838"];
+  105 -> 130 [color="#ff3838"];
+  105 -> 132 [color="#ff3838"];
+  105 -> 130 [color="#ff3838"];
+  105 -> 132 [color="#ff3838"];
+  105 -> 130 [color="#ff3838"];
+  105 -> 132 [color="#ff3838"];
+  105 -> 130 [color="#ff3838"];
+  105 -> 132 [color="#ff3838"];
+  105 -> 146 [color="#ff3838"];
+  105 -> 68 [color="#ff3838"];
+  105 -> 150 [color="#ff3838"];
+  105 -> 152 [color="#ff3838"];
+  105 -> 154 [color="#ff3838"];
+  105 -> 156 [color="#ff3838"];
+  105 -> 102 [color="#ff3838"];
+  105 -> 160 [color="#ff3838"];
+  105 -> 162 [color="#ff3838"];
+  105 -> 164 [color="#ff3838"];
+  105 -> 166 [color="#ff3838"];
+  105 -> 168 [color="#ff3838"];
+  105 -> 168 [color="#ff3838"];
+  105 -> 38 [color="#ff3838"];
+  105 -> 110 [color="#ff3838"];
+  105 -> 164 [color="#ff3838"];
+  105 -> 168 [color="#ff3838"];
+  105 -> 180 [color="#ffd954"];
+  105 -> 180 [color="#ffd954"];
+  105 -> 80 [color="#ffd954"];
+  105 -> 186 [color="#7aebf2"];
+  105 -> 164 [color="#7aebf2"];
+  105 -> 190 [color="#ffd954"];
+  105 -> 192 [color="#7aebf2"];
+  105 -> 194 [color="#7aebf2"];
+  105 -> 196 [color="#ffd954"];
+  105 -> 8 [color="#ffd954"];
+  105 -> 200 [color="#7aebf2"];
+  105 -> 20 [color="#ff3838"];
+  105 -> 8 [color="#ffd954"];
+  105 -> 196 [color="#ffd954"];
+  105 -> 208 [color="#ff3838"];
+  105 -> 196 [color="#ffd954"];
+  105 -> 2 [color="#ff3838"];
+  105 -> 214 [color="#ff3838"];
+  105 -> 214 [color="#ff3838"];
+  105 -> 46 [color="#ff3838"];
+  105 -> 68 [color="#ff3838"];
+  105 -> 68 [color="#ff3838"];
+  105 -> 54 [color="#ff3838"];
+  105 -> 146 [color="#ff3838"];
+  227 -> 228 [color="#ff3838"];
+  227 -> 230 [color="#ff3838"];
+  227 -> 232 [color="#ff3838"];
+  227 -> 20 [color="#ff3838"];
+  227 -> 22 [color="#ff3838"];
+  227 -> 24 [color="#ff3838"];
+  227 -> 26 [color="#ff3838"];
+  227 -> 28 [color="#ff3838"];
+  227 -> 244 [color="#ff3838"];
+  227 -> 246 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 250 [color="#ff3838"];
+  227 -> 186 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 256 [color="#ff3838"];
+  227 -> 256 [color="#ff3838"];
+  227 -> 260 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 266 [color="#ff3838"];
+  227 -> 268 [color="#ff3838"];
+  227 -> 270 [color="#ff3838"];
+  227 -> 272 [color="#ff3838"];
+  227 -> 274 [color="#ff3838"];
+  227 -> 276 [color="#ff3838"];
+  227 -> 278 [color="#ff3838"];
+  227 -> 280 [color="#ff3838"];
+  227 -> 280 [color="#ff3838"];
+  227 -> 266 [color="#ff3838"];
+  227 -> 268 [color="#ff3838"];
+  227 -> 270 [color="#ff3838"];
+  227 -> 272 [color="#ff3838"];
+  227 -> 274 [color="#ff3838"];
+  227 -> 276 [color="#ff3838"];
+  227 -> 278 [color="#ff3838"];
+  227 -> 298 [color="#ff3838"];
+  227 -> 114 [color="#ff3838"];
+  227 -> 40 [color="#ff3838"];
+  227 -> 304 [color="#ff3838"];
+  227 -> 306 [color="#ff3838"];
+  227 -> 114 [color="#ff3838"];
+  227 -> 310 [color="#ff3838"];
+  227 -> 312 [color="#ff3838"];
+  227 -> 314 [color="#ff3838"];
+  227 -> 114 [color="#ff3838"];
+  227 -> 318 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 70 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 70 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 70 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 344 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 344 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 360 [color="#ff3838"];
+  227 -> 90 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 90 [color="#ff3838"];
+  227 -> 370 [color="#ff3838"];
+  227 -> 372 [color="#ff3838"];
+  227 -> 374 [color="#ff3838"];
+  227 -> 376 [color="#ff3838"];
+  227 -> 378 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 214 [color="#ff3838"];
+  227 -> 90 [color="#ff3838"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 124 [color="#ffd954"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 4 [color="#ffd954"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 24 [color="#ff3838"];
+  227 -> 370 [color="#ff3838"];
+  227 -> 372 [color="#ff3838"];
+  227 -> 408 [color="#ff3838"];
+  227 -> 132 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 426 [color="#7aebf2"];
+  227 -> 428 [color="#ffd954"];
+  227 -> 430 [color="#ff3838"];
+  227 -> 432 [color="#ff3838"];
+  227 -> 146 [color="#ff3838"];
+  227 -> 436 [color="#ff3838"];
+  227 -> 318 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 166 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 166 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 472 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 94 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 480 [color="#ff3838"];
+  227 -> 482 [color="#ff3838"];
+  227 -> 484 [color="#ff3838"];
+  227 -> 486 [color="#ff3838"];
+  227 -> 68 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 498 [color="#ffd954"];
+  227 -> 94 [color="#ff3838"];
+  227 -> 502 [color="#ff3838"];
+  227 -> 504 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 472 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 514 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 4 [color="#ffd954"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 2 [color="#ffd954"];
+  227 -> 526 [color="#ffd954"];
+  227 -> 2 [color="#ffd954"];
+  227 -> 208 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 540 [color="#ff3838"];
+  227 -> 514 [color="#ff3838"];
+  227 -> 8 [color="#ffd954"];
+  227 -> 546 [color="#ff3838"];
+  227 -> 548 [color="#ff3838"];
+  227 -> 24 [color="#ff3838"];
+  227 -> 370 [color="#ff3838"];
+  227 -> 372 [color="#ff3838"];
+  227 -> 408 [color="#ff3838"];
+  227 -> 558 [color="#ff3838"];
+  227 -> 214 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 20 [color="#ff3838"];
+  227 -> 566 [color="#ff3838"];
+  227 -> 482 [color="#ff3838"];
+  227 -> 484 [color="#ff3838"];
+  227 -> 24 [color="#ff3838"];
+  227 -> 370 [color="#ff3838"];
+  227 -> 372 [color="#ff3838"];
+  227 -> 408 [color="#ff3838"];
+  227 -> 580 [color="#ff3838"];
+  227 -> 582 [color="#ff3838"];
+  227 -> 584 [color="#ff3838"];
+  227 -> 586 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 58 [color="#ffd954"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 596 [color="#ffd954"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 582 [color="#ff3838"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 584 [color="#ff3838"];
+  227 -> 606 [color="#ff3838"];
+  227 -> 608 [color="#ff3838"];
+  227 -> 610 [color="#ff3838"];
+  227 -> 186 [color="#ff3838"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 616 [color="#ff3838"];
+  227 -> 618 [color="#ff3838"];
+  227 -> 620 [color="#ff3838"];
+  227 -> 622 [color="#ff3838"];
+  227 -> 616 [color="#ff3838"];
+  227 -> 186 [color="#ff3838"];
+  227 -> 186 [color="#ff3838"];
+  227 -> 630 [color="#ff3838"];
+  227 -> 632 [color="#ff3838"];
+  227 -> 540 [color="#ff3838"];
+  227 -> 582 [color="#ff3838"];
+  227 -> 472 [color="#ff3838"];
+  227 -> 640 [color="#ff3838"];
+  227 -> 370 [color="#ff3838"];
+  227 -> 644 [color="#ff3838"];
+  227 -> 114 [color="#ff3838"];
+  227 -> 472 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 62 [color="#ff3838"];
+  227 -> 654 [color="#ff3838"];
+  227 -> 656 [color="#ff3838"];
+  227 -> 658 [color="#ff3838"];
+  227 -> 660 [color="#ff3838"];
+  227 -> 662 [color="#ff3838"];
+  227 -> 2 [color="#ffd954"];
+  227 -> 124 [color="#ffd954"];
+  227 -> 654 [color="#ffd954"];
+  227 -> 164 [color="#ff3838"];
+  227 -> 54 [color="#ff3838"];
+  227 -> 674 [color="#ff3838"];
+  227 -> 244 [color="#ff3838"];
+  227 -> 2 [color="#ffd954"];
+  227 -> 482 [color="#ff3838"];
+  227 -> 484 [color="#ff3838"];
+  227 -> 486 [color="#ff3838"];
+  227 -> 408 [color="#ff3838"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 504 [color="#ff3838"];
+  227 -> 520 [color="#ffd954"];
+  227 -> 58 [color="#ffd954"];
+  227 -> 110 [color="#ff3838"];
+  227 -> 698 [color="#ffd954"];
+  227 -> 2 [color="#ffd954"];
+  227 -> 2 [color="#ff3838"];
+  227 -> 472 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 582 [color="#ff3838"];
+  227 -> 582 [color="#ff3838"];
+  227 -> 2 [color="#ff3838"];
+  227 -> 718 [color="#ff3838"];
+  227 -> 720 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 54 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 490 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 458 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 756 [color="#ff3838"];
+  227 -> 758 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 38 [color="#ff3838"];
+  227 -> 766 [color="#ff3838"];
+  227 -> 766 [color="#ff3838"];
+  227 -> 766 [color="#ff3838"];
+  227 -> 94 [color="#ff3838"];
+  227 -> 54 [color="#ff3838"];
+  227 -> 254 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 456 [color="#ff3838"];
+  227 -> 782 [color="#ff3838"];
+  227 -> 640 [color="#ff3838"];
+  227 -> 262 [color="#ff3838"];
+  227 -> 90 [color="#ff3838"];
+  789 -> 718 [color="#ff3838"];
+  789 -> 2 [color="#ff3838"];
+  789 -> 254 [color="#ff3838"];
+  789 -> 54 [color="#ff3838"];
+  789 -> 370 [color="#ff3838"];
+  789 -> 372 [color="#ff3838"];
+  789 -> 374 [color="#ff3838"];
+  789 -> 376 [color="#ff3838"];
+  789 -> 378 [color="#ff3838"];
+  789 -> 808 [color="#ff3838"];
+  789 -> 810 [color="#ff3838"];
+  789 -> 168 [color="#ff3838"];
+  813 -> 814 [color="#ff3838"];
+  813 -> 68 [color="#ff3838"];
+  813 -> 472 [color="#ff3838"];
+  813 -> 66 [color="#ff3838"];
+  813 -> 74 [color="#ff3838"];
+  813 -> 298 [color="#ff3838"];
+  813 -> 84 [color="#ff3838"];
+  813 -> 116 [color="#ff3838"];
+  813 -> 84 [color="#ff3838"];
+  813 -> 64 [color="#ff3838"];
+  813 -> 62 [color="#ff3838"];
+  813 -> 68 [color="#ff3838"];
+  813 -> 62 [color="#ff3838"];
+  813 -> 840 [color="#ffd954"];
+  813 -> 842 [color="#ffd954"];
+  813 -> 66 [color="#ff3838"];
+  813 -> 32 [color="#ff3838"];
+  813 -> 116 [color="#ff3838"];
+  813 -> 18 [color="#ffd954"];
+  813 -> 852 [color="#ff3838"];
+  813 -> 38 [color="#ff3838"];
+  813 -> 68 [color="#ff3838"];
+  813 -> 52 [color="#ff3838"];
+  859 -> 618 [color="#ff3838"];
+  861 -> 862 [color="#ff3838"];
+  861 -> 864 [color="#ff3838"];
+  861 -> 72 [color="#ff3838"];
+  861 -> 868 [color="#ff3838"];
+  861 -> 66 [color="#ff3838"];
+  861 -> 72 [color="#ff3838"];
+  861 -> 66 [color="#ff3838"];
+  861 -> 876 [color="#ff3838"];
+  861 -> 864 [color="#ff3838"];
+  861 -> 876 [color="#ff3838"];
+  881 -> 18 [color="#ffd954"];
+  881 -> 884 [color="#ffd954"];
+  881 -> 886 [color="#ffd954"];
+  881 -> 888 [color="#ffd954"];
+  881 -> 428 [color="#ffd954"];
+}
