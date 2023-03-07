@@ -37,10 +37,27 @@ I have also attempted to anonymize the names of YouTube users mentioned in the c
 
 ## How to replicate the results
 
-At this point, it would be a bit painful, but possible.
+On March 2023, I've added the Python script I used for analyzing the comments. To reproduce my results:
 
-You'd have to visit all YouTube videos listed in `websites.txt`, unroll all comments, and save them as HTML files. Then, you can extract comments by certain users and compare them to my list.
+1. Install Python from its official website. Make sure you tick the `Install PIP` option.
+2. Use PIP to install the BeautifulSoup library for Python.
+3. Download and install Graphviz.
+4. Visit all YouTube videos listed in `websites.txt`, **unroll all comments**, and save all websites to a single folder as HTML files (best done through your browser's developer tools).
+5. Place the Python script in the same folder as the downloaded videos and run it.
 
-However, I will add my Python script as soon as possible. It makes the task much easier, as all that's needed is to gather the websites in a single folder. I will not provide them here, since they contain many unrelated comments.
+If all goes smoothly, two new folders will appear.
 
-**I give you permission to use the results of my research in any way you want. If you want to provide attribution, please link to this repository**.
+* `LinkGraph` contains the Graphviz source file and the resulting graph of outbound links.
+* `TextSummaries` contains the full text of comments, a list of outbound links and some other info.
+
+Note: although my script recognizes certain users, it does not contain their full YouTube usernames; only their anonymous hashes and short forms.
+
+## Extending the script
+
+If you want to, you can adapt my script to your needs and analyze comments from *youtube.com* written by other suspected users, not only the ones I checked.
+
+To do so, create a file called `users.txt` (important!) in the same folder as all the YouTube sites you've downloaded. Inside this file, put the usernames you want to analyze, one per line.
+
+Additional quick customization options are described at the end of the script. Of course, sky is the limit if you know some Python yourself!
+
+**I give you permission to use my script and the results of my research in any way you want. If you want to provide attribution, please link to this repository**.
