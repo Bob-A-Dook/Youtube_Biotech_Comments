@@ -39,10 +39,23 @@ I have also attempted to anonymize the names of YouTube users mentioned in the c
 
 On March 2023, I've added the Python script I used for analyzing the comments. To reproduce my results:
 
-1. Install Python from its official website. Make sure you tick the `Install PIP` option.
+1. Install [Python](https://www.python.org/downloads/) from its official website.
+
+   Make sure you tick the `Install PIP` option during installation.
+
 2. Use PIP to install the BeautifulSoup library for Python.
-3. Download and install Graphviz.
-4. Visit all YouTube videos listed in `websites.txt`, **unroll all comments**, and save all websites to a single folder as HTML files (best done through your browser's developer tools).
+
+   Do it by typing `pip install beautifulsoup4` in your console.
+
+3. Download and install [Graphviz](https://www.graphviz.org/download/).
+
+   This is optional, used for visualizing links between comments and websites.
+
+4. Visit all YouTube videos listed in `websites.txt`, **unroll all comments**, and save all websites to a single folder as HTML files.
+
+   **Important**: do not use `Ctrl+S` to save the website to disk; it wouldn't include any comments!  
+   Instead, you can open the browser's developer tools (`Ctrl+Shift+I`), right-click the *<html>* tag at the top, select the *Copy outer HTML* option and then copy the text to a text file; save with the *.html* extension.
+
 5. Place the Python script in the same folder as the downloaded videos and run it.
 
 If all goes smoothly, two new folders will appear.
