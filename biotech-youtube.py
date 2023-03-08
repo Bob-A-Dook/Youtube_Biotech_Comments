@@ -900,7 +900,7 @@ def get_website_data( html_files ):
         prepare_website_data( file, data_container, user_map )
     data = data_container
     
-    _save_prepared_data( data )
+    if data: _save_prepared_data( data )
     return data
 
 
@@ -1071,14 +1071,23 @@ def load_potential_troll_list():
     troll_file = 'users.txt'
                  
     if not Path( troll_file ).exists():
-        error('[ERROR] No list of suspected troll account names found '
-              'in the active folder'
-              f'\n( {Path().absolute()} )\n\n'
-              f'[SOLUTION] Create a file called "{troll_file}" within this '
-              'folder. Each line should contain a single username.\n')
-        return
+ 
+        if SPECIAL_USER_STYLING:
+            warning('No custom list of usernames provided, but the script '
+                    'contains some hashes, so it should work for some.\n\n')
+        else:
+            error('No list of username hashes was found in the script, and '
+                  'no file with suspected troll account names was found '
+                  'in the active folder'
+                  f'\n( {Path().absolute()} )\n\n')
+
+        info = ('\n\n[INFO]\nYou can search for custom usernames if you '
+                f'create a file called "{troll_file}" within this folder, '
+                'with one username per line of text.\n\n')
+        print(info)
+        return []
     
-    return load_user_list( troll_file )
+    else: return load_user_list( troll_file )
 
 
 def set_special_names_and_hashes( usernames ):
@@ -1086,6 +1095,8 @@ def set_special_names_and_hashes( usernames ):
     Creates a script-wide list of usernames and hashes to be used
     for detecting troll comments and mentions of their names
     '''
+    if not usernames: return
+    
     for uname in usernames:
         SPECIAL_USERS.append( uname )
         namehash = hash_username( uname )
@@ -1112,10 +1123,14 @@ def analyze_all_websites_in_folder( usernames, **graph_args ):
   
     data = get_website_data( html_files )
     if not data:
-        error('Failed to get any data from websites inside the active folder'
-              f'\n( {Path().absolute()} )\n'
-              'Perhaps YouTube changed the format of its websites or there '
-              'is a bug within this script?')
+        error('\n[NO DATA FOUND]\nFailed to get any data from websites '
+              f'inside the active folder \n( {Path().absolute()} )\n')
+        
+        print('\n[SOLUTION] Make sure you save YT websites with all the '
+              'comments, by copying HTML through developer tools and '
+              'NOT BY PRESSING CTRL+S.\n'
+              'It is also possible that YouTube changed its format. In this '
+              'case, not much can be done') 
         return
 
     print('\n[SUCCESS]\nLoaded all data for the saved YT videos '
@@ -1208,7 +1223,7 @@ if __name__ == '__main__':
     
     suspected_usernames = load_potential_troll_list()
     
-    if MODULES_OK and suspected_usernames:
+    if MODULES_OK and (suspected_usernames or SPECIAL_USER_STYLING):
         set_special_names_and_hashes( suspected_usernames )
         analyze_all_websites_in_folder( suspected_usernames,
                                         cluster_map=WEBSITES_TO_CLUSTERS,
