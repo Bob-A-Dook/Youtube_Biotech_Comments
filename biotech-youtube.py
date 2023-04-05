@@ -107,7 +107,7 @@ RESULT_FOLDER = 'TextSummaries'
 #################################################
 
 MAX_TEXTLINE_LENGTH = 25
-MAX_NODES_IN_COLUMN = 20
+MAX_NODES_IN_COLUMN = 15
 BASE_EDGE_WIDTH = 2
 MINIMIZE_EDGE_NUMBER = False #If True, 1 edge = 1 comment
 GRAPH_ENGINES = ['dot'] # By default "dot" only, but you can try "neato" etc.
