@@ -42,7 +42,7 @@ from logging import error, warning, exception
 from urllib.parse import urlparse, quote
 from textwrap import wrap
 from shutil import which
-from sys import modules
+from sys import modules, argv
 from collections import Counter
 from hashlib import md5
 
@@ -106,8 +106,8 @@ RESULT_FOLDER = 'TextSummaries'
 # Configurable defaults, you can change them here
 #################################################
 
-MAX_NODE_LINE_LENGTH = 25
-MAX_NODES_IN_COLUMN = 15
+MAX_TEXTLINE_LENGTH = 25
+MAX_NODES_IN_COLUMN = 20
 BASE_EDGE_WIDTH = 2
 MINIMIZE_EDGE_NUMBER = False #If True, 1 edge = 1 comment
 GRAPH_ENGINES = ['dot'] # By default "dot" only, but you can try "neato" etc.
@@ -333,7 +333,8 @@ def _save_comments( trolls_by_website ):
         textlines.append(f'\n\n### {website} ###\n\n')
         for i, com_data in enumerate(comments):
             author, ahash, comment_link, text, links = com_data
-            anon_name,_ = SPECIAL_USER_STYLING[ ahash ]
+            try: anon_name,_ = SPECIAL_USER_STYLING[ ahash ]
+            except KeyError: anon_name = author
             
             com_as_text = (f'====\n{i}\n'
                            f'{anon_name}\n{comment_link}\n---\n'
@@ -585,7 +586,7 @@ class GraphCreator:
 
     def _format_link_for_display( self, link, short_domain=None ):
         '''Wraps the link so that its domain fits on the first line'''        
-        short_link = '\n'.join( wrap( link, MAX_NODE_LINE_LENGTH )  )
+        short_link = '\n'.join( wrap( link, MAX_TEXTLINE_LENGTH )  )
         return short_link
 
     def _sort_by_influence( self, nodes, conn_num ):
@@ -664,6 +665,11 @@ class GraphCreator:
                 else: leftside_column.append( node )
             else:           
                 nodes.append( node )
+
+        # Fix: nodes from the main grid CANNOT be in the left-hand column
+        # or the layout gets messed up
+        nodes = [n for n in nodes if not n in leftside_column]
+        
 
         # Grouping nodes into columns with a set max number of items
         node_groups, buffer, i = [], [], 0
@@ -779,10 +785,10 @@ class GraphCreator:
             url_map[ name1 ] = url1
             url_map[ name2 ] = url2
 
+            edgecolor = ''
             if author:
-                _,edgecolor = SPECIAL_USER_STYLING[ author ]
-            else:
-                edgecolor = ''
+                try: _,edgecolor = SPECIAL_USER_STYLING[ author ]
+                except KeyError: pass
 
             connections.append( (name1, name2, edgecolor) )
             
@@ -1104,9 +1110,22 @@ def set_special_names_and_hashes( usernames ):
 
     print(f'[INFO] Loaded a list of {len(usernames)} suspected usernames')
 
-########################
-# Highest-level function
-########################
+#########################
+# Highest-level functions
+#########################
+
+def show_video_titles():
+    '''Looks at the file titles and shows them. Used for basic exploration'''
+    html_files = [p for p in Path().iterdir() if p.suffix == '.html'
+                  and 'youtube' in p.name]
+    start, end = re.escape('<title>'), re.escape('</title>')
+    titlestring = start+'(.*?)'+end
+        
+    for file in html_files:
+        with open(file) as f: text = f.read()
+        title = re.search( titlestring, text, re.DOTALL )
+        if title: print( title.group(1) )
+
 
 def analyze_all_websites_in_folder( usernames, **graph_args ):
     '''
@@ -1220,14 +1239,18 @@ if __name__ == '__main__':
 
 
     ## Main functions below, DO NOT CHANGE THEM
-    
-    suspected_usernames = load_potential_troll_list()
-    
-    if MODULES_OK and (suspected_usernames or SPECIAL_USER_STYLING):
-        set_special_names_and_hashes( suspected_usernames )
-        analyze_all_websites_in_folder( suspected_usernames,
-                                        cluster_map=WEBSITES_TO_CLUSTERS,
-                                        starting_cluster=STARTING_CLUSTER)
+
+    #New: checking YT titles only
+    if len(argv) > 1 and argv[1] == '-t':
+        show_video_titles()
+             
+    elif MODULES_OK:
+        suspected_usernames = load_potential_troll_list()
+        if (suspected_usernames or SPECIAL_USER_STYLING):
+            set_special_names_and_hashes( suspected_usernames )
+            analyze_all_websites_in_folder( suspected_usernames,
+                                            cluster_map=WEBSITES_TO_CLUSTERS,
+                                            starting_cluster=STARTING_CLUSTER)
     if not RUNS_IN_IDLE:
         print('')
         input('[Press Enter to quit]')
